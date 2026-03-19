@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/hooks/use-auth";
 import Index from "./pages/Index";
 import Ecosystem from "./pages/Ecosystem";
-import Cards from "./pages/Cards";
+
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import GetUPay from "./pages/GetUPay";

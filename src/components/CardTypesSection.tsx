@@ -32,7 +32,7 @@ const cardTypes = [
 ];
 
 const CardTypesSection = () => {
-  const [activeId, setActiveId] = useState("virtual");
+  const [activeId, setActiveId] = useState("ubank");
 
   return (
     <section className="py-24 bg-background">

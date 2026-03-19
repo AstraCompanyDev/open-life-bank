@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Wallet, CreditCard, Gift } from "lucide-react";
+import { Wallet, CreditCard, Gift, TrendingUp } from "lucide-react";
 import virtualImg from "@/assets/card-ubank-app.png";
 import plasticImg from "@/assets/card-upay-checkout.png";
 import metalImg from "@/assets/card-uearn-premium.png";
+import investImg from "@/assets/lifestyle-crypto.jpg";
 
 const cardTypes = [
   {
@@ -28,6 +29,14 @@ const cardTypes = [
     image: metalImg,
     description:
       "Transform loyalty and rewards into tokenised value. Your rewards as liquid value, unlike static Web2 loyalty programs.",
+  },
+  {
+    id: "uinvest",
+    label: "U-Invest",
+    icon: TrendingUp,
+    image: investImg,
+    description:
+      "Access diversified investment opportunities across crypto and traditional assets. Build and grow your portfolio with smart, guided strategies.",
   },
 ];
 

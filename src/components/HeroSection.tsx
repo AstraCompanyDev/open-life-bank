@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroAppDark from "@/assets/hero-app-dark.png";
+import heroMobileMockup from "@/assets/hero-mobile-mockup.png";
 
 const HeroSection = () => {
   return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div
           className="relative rounded-2xl overflow-hidden h-screen flex items-end"
           style={{
-            backgroundImage: `url(${heroAppDark})`,
+            backgroundImage: `url(${heroMobileMockup})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

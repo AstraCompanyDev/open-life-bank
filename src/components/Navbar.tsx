@@ -3,9 +3,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logoUtopia from "@/assets/logo-utopia.avif";
 
-const navLinks = [
-  { label: "About", to: "/about" },
-];
+const navLinks: { label: string; to: string }[] = [];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

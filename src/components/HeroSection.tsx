@@ -29,12 +29,14 @@ const HeroSection = () => {
                 Reimagining money so you can spend, save, earn, and invest your way. The best of Web2 & Web3 — putting YOU first.
               </p>
 
-              <Link to="/open-account">
-                <Button variant="hero" size="lg">
-                  Open Account
-                  <ArrowRight className="ml-2 w-4 h-4" />
-                </Button>
-              </Link>
+              <div className="pt-4">
+                <Link to="/open-account">
+                  <Button variant="hero" size="lg">
+                    Open Account
+                    <ArrowRight className="ml-2 w-4 h-4" />
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

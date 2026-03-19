@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link
                 key={link.to}
                 to={link.to}
-                className={`text-sm font-medium transition-colors ${
+                className={`text-base font-medium transition-colors ${
                   location.pathname === link.to
                     ? "text-white"
                     : "text-white/70 hover:text-white"
@@ -45,7 +45,7 @@ const Navbar = () => {
             ))}
             <Link
               to="/blog"
-              className={`text-sm font-medium transition-colors ${
+              className={`text-base font-medium transition-colors ${
                 location.pathname === "/blog"
                   ? "text-white"
                   : "text-white/70 hover:text-white"
@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/open-account"
-              className="inline-flex items-center px-5 py-2.5 rounded-full bg-white text-black text-sm font-semibold hover:opacity-90 transition-opacity"
+              className="inline-flex items-center px-5 py-2.5 rounded-full bg-white text-black text-base font-semibold hover:opacity-90 transition-opacity"
             >
               Open an account
             </Link>

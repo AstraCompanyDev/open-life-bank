@@ -39,7 +39,10 @@
   html {
     font-size: 85%;
     letter-spacing: -0.02em;
-    max-width: 90%;
+  }
+
+  main {
+    max-width: 90vw;
     margin: 0 auto;
   }
 

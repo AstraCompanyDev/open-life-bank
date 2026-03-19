@@ -4,6 +4,7 @@ import PartnersSection from "@/components/PartnersSection";
 import CardTypesSection from "@/components/CardTypesSection";
 import BankForPeopleSection from "@/components/BankForPeopleSection";
 import GlobalBankingSection from "@/components/GlobalBankingSection";
+import AccountsSection from "@/components/AccountsSection";
 import LifestyleSection from "@/components/LifestyleSection";
 import TeamSection from "@/components/TeamSection";
 import CTASection from "@/components/CTASection";
@@ -20,6 +21,7 @@ const Index = () => {
       <GlobalBankingSection />
       <TeamSection />
       <BankForPeopleSection />
+      <AccountsSection />
       <LifestyleSection />
       <CTASection />
       <Footer />

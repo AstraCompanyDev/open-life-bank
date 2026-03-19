@@ -22,7 +22,7 @@ const Index = () => {
       <TeamSection />
       <BankForPeopleSection />
       <AccountsSection />
-      <LifestyleSection />
+      
       <CTASection />
       <Footer />
       <ScrollToTop />

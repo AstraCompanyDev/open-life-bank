@@ -38,6 +38,7 @@
 @layer base {
   html {
     font-size: 85%;
+    letter-spacing: -0.02em;
   }
 
   :root {

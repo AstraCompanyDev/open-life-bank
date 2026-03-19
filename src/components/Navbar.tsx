@@ -25,7 +25,7 @@ const Navbar = () => {
 
           {/* Mobile logo */}
           <Link to="/" className="md:hidden flex items-center gap-2">
-            <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
+            <img src={logoUtopia} alt="U-topia" className="h-7 w-auto brightness-0 invert" />
           </Link>
 
           {/* Right side: nav links + CTA */}

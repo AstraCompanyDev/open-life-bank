@@ -13,7 +13,7 @@ const partners = [
 ];
 
 const PartnersSection = () => {
-  const duplicatedPartners = [...partners, ...partners, ...partners, ...partners];
+  const duplicatedPartners = [...partners, ...partners];
 
   return (
     <section className="py-16 bg-background overflow-hidden">
@@ -24,11 +24,11 @@ const PartnersSection = () => {
       </div>
 
       {/* Marquee Container */}
-      <div className="relative max-w-5xl mx-auto">
+      <div className="relative max-w-5xl mx-auto overflow-hidden">
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
 
-        <div className="flex animate-marquee items-center">
+        <div className="flex animate-marquee items-center w-max">
           {duplicatedPartners.map((partner, index) => (
             <div
               key={index}

@@ -46,6 +46,23 @@ const CardTypesSection = () => {
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+        {/* Intro Header */}
+        <div className="max-w-2xl mb-16">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-6">
+            The U-topia Ecosystem
+          </span>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
+            Introducing the{" "}
+            <span className="gradient-text">U-topia Platform</span>
+          </h2>
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">
+            U-topia brings a new standard to digital finance with a fully integrated banking ecosystem.
+          </p>
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+            A decentralized crypto banking platform combining global payments, yield opportunities, and non-custodial control — delivering everything you expect from modern finance, redesigned for Web3.
+          </p>
+        </div>
+
         <div className="flex flex-col sm:flex-row gap-3 h-auto sm:h-[420px] lg:h-[480px]">
           {cardTypes.map((card) => {
             const isActive = activeId === card.id;

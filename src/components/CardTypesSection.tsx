@@ -87,7 +87,7 @@ const CardTypesSection = () => {
                 />
 
                 {/* Default gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
                 {/* Content container */}
                 <div className="absolute inset-0 flex flex-col justify-end p-5 md:p-6">

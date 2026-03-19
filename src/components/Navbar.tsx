@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Logo (left) */}
           <div className="hidden md:flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
+              <img src={logoUtopia} alt="U-topia" className="h-7 w-auto brightness-0 invert" />
             </Link>
           </div>
 

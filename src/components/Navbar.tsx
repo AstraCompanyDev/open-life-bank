@@ -19,13 +19,13 @@ const Navbar = () => {
           {/* Logo (left) */}
           <div className="hidden md:flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
+              <img src={logoUtopia} alt="U-topia" className="h-7 w-auto brightness-0 invert" />
             </Link>
           </div>
 
           {/* Mobile logo */}
           <Link to="/" className="md:hidden flex items-center gap-2">
-            <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
+            <img src={logoUtopia} alt="U-topia" className="h-7 w-auto brightness-0 invert" />
           </Link>
 
           {/* Right side: nav links + CTA */}
@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link
                 key={link.to}
                 to={link.to}
-                className={`text-base font-medium transition-colors ${
+                className={`text-lg font-medium transition-colors ${
                   location.pathname === link.to
                     ? "text-white"
                     : "text-white/70 hover:text-white"
@@ -45,7 +45,7 @@ const Navbar = () => {
             ))}
             <Link
               to="/blog"
-              className={`text-base font-medium transition-colors ${
+              className={`text-lg font-medium transition-colors ${
                 location.pathname === "/blog"
                   ? "text-white"
                   : "text-white/70 hover:text-white"
@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/open-account"
-              className="inline-flex items-center px-5 py-2.5 rounded-full bg-white text-black text-base font-semibold hover:opacity-90 transition-opacity"
+              className="inline-flex items-center px-6 py-3 rounded-full bg-white text-black text-lg font-semibold hover:opacity-90 transition-opacity"
             >
               Open an account
             </Link>

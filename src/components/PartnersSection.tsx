@@ -13,7 +13,7 @@ const partners = [
 ];
 
 const PartnersSection = () => {
-  const duplicatedPartners = [...partners, ...partners, ...partners, ...partners];
+  const duplicatedPartners = [...partners, ...partners];
 
   return (
     <section className="py-16 bg-background overflow-hidden">

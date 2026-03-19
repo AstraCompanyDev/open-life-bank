@@ -1,5 +1,7 @@
 import Navbar from "@/components/Navbar";
 import VideoSection from "@/components/VideoSection";
+import CardShowcase from "@/components/CardShowcase";
+import AccountsSection from "@/components/AccountsSection";
 import TeamSection from "@/components/TeamSection";
 import GlobalBankingSection from "@/components/GlobalBankingSection";
 import FeaturesSection from "@/components/FeaturesSection";
@@ -13,6 +15,8 @@ const About = () => {
       <Navbar />
       <div className="pt-20" />
       <VideoSection />
+      <CardShowcase />
+      <AccountsSection />
       <TeamSection />
       <GlobalBankingSection showMap />
       <FeaturesSection />

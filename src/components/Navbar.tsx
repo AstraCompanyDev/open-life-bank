@@ -13,13 +13,13 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 navbar-glass">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-12 xl:px-16">
+    <nav className="fixed top-0 left-0 right-0 z-50">
+      <div className="mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         <div className="flex items-center h-16">
           {/* Logo + Core Pages (left) */}
           <div className="hidden md:flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2 mr-2">
-              <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0" />
+              <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
             </Link>
             {navLinks.map((link) => (
               <Link
@@ -27,8 +27,8 @@ const Navbar = () => {
                 to={link.to}
                 className={`text-sm font-medium transition-colors ${
                   location.pathname === link.to
-                    ? "text-foreground"
-                    : "text-muted-foreground hover:text-foreground"
+                    ? "text-white"
+                    : "text-white/70 hover:text-white"
                 }`}
               >
                 {link.label}
@@ -38,7 +38,7 @@ const Navbar = () => {
 
           {/* Mobile logo */}
           <Link to="/" className="md:hidden flex items-center gap-2">
-            <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0" />
+            <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
           </Link>
 
           {/* Right side: secondary links + CTA */}
@@ -47,15 +47,15 @@ const Navbar = () => {
               to="/blog"
               className={`text-sm font-medium transition-colors ${
                 location.pathname === "/blog"
-                  ? "text-foreground"
-                  : "text-muted-foreground hover:text-foreground"
+                  ? "text-white"
+                  : "text-white/70 hover:text-white"
               }`}
             >
               Blog
             </Link>
             <Link
               to="/open-account"
-              className="inline-flex items-center px-5 py-2.5 rounded-full bg-foreground text-background text-sm font-semibold hover:opacity-90 transition-opacity"
+              className="inline-flex items-center px-5 py-2.5 rounded-full bg-white text-black text-sm font-semibold hover:opacity-90 transition-opacity"
             >
               Open an account
             </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
             className="md:hidden text-foreground"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X size={24} className="text-white" /> : <Menu size={24} className="text-white" />}
           </button>
         </div>
 

@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/hooks/use-auth";
 import Index from "./pages/Index";
 import Ecosystem from "./pages/Ecosystem";
-import Cards from "./pages/Cards";
+
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import GetUPay from "./pages/GetUPay";
@@ -31,7 +31,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
-            <Route path="/cards" element={<Cards />} />
+            
             <Route path="/about" element={<About />} />
             <Route path="/get-upay" element={<GetUPay />} />
             <Route path="/investor-contact" element={<InvestorContact />} />

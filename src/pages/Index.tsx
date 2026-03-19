@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import PartnersSection from "@/components/PartnersSection";
-import VideoSection from "@/components/VideoSection";
 import CardTypesSection from "@/components/CardTypesSection";
 import BankForPeopleSection from "@/components/BankForPeopleSection";
 import GlobalBankingSection from "@/components/GlobalBankingSection";
@@ -20,7 +19,6 @@ const Index = () => {
       <CardTypesSection />
       <GlobalBankingSection />
       <TeamSection />
-      <VideoSection />
       <BankForPeopleSection />
       <LifestyleSection />
       <CTASection />

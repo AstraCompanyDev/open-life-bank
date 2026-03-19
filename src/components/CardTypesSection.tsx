@@ -47,7 +47,7 @@ const CardTypesSection = () => {
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         {/* Intro Header */}
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-4xl mx-auto text-center mb-16">
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-3">
             The U-topia Ecosystem
           </span>

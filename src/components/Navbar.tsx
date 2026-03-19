@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/open-account"
-              className="inline-flex items-center px-5 py-2.5 rounded-full bg-foreground text-background text-sm font-semibold hover:opacity-90 transition-opacity"
+              className="inline-flex items-center px-5 py-2.5 rounded-full bg-white text-black text-sm font-semibold hover:opacity-90 transition-opacity"
             >
               Open an account
             </Link>

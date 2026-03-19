@@ -48,7 +48,7 @@ const CardTypesSection = () => {
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         {/* Intro Header */}
         <div className="max-w-2xl mx-auto text-center mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-6">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-3">
             The U-topia Ecosystem
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">

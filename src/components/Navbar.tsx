@@ -19,10 +19,13 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const isHomePage = location.pathname === "/";
+  const navbarSolid = !isHomePage || scrolled || isOpen;
+
   return (
     <nav
       className={`fixed top-2 z-50 left-10 right-10 sm:left-16 sm:right-16 lg:left-24 lg:right-24 xl:left-32 xl:right-32 transition-all duration-300 rounded-2xl ${
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-lg" : ""
+        navbarSolid ? "bg-background/90 backdrop-blur-md shadow-lg" : ""
       }`}
     >
       <div className="mx-auto px-5 sm:px-6">
@@ -34,7 +37,7 @@ const Navbar = () => {
                 src={logoUtopia}
                 alt="U-topia"
                 className={`h-7 w-auto transition-all duration-300 ${
-                  scrolled ? "brightness-0" : "brightness-0 invert"
+                  navbarSolid ? "brightness-0" : "brightness-0 invert"
                 }`}
               />
             </Link>
@@ -46,7 +49,7 @@ const Navbar = () => {
               src={logoUtopia}
               alt="U-topia"
               className={`h-7 w-auto transition-all duration-300 ${
-                scrolled ? "brightness-0" : "brightness-0 invert"
+                navbarSolid ? "brightness-0" : "brightness-0 invert"
               }`}
             />
           </Link>
@@ -58,7 +61,7 @@ const Navbar = () => {
                 key={link.to}
                 to={link.to}
                 className={`text-lg font-medium transition-colors ${
-                  scrolled
+                  navbarSolid
                     ? location.pathname === link.to
                       ? "text-foreground"
                       : "text-muted-foreground hover:text-foreground"
@@ -73,7 +76,7 @@ const Navbar = () => {
             <Link
               to="/blog"
               className={`text-lg font-medium transition-colors ${
-                scrolled
+                navbarSolid
                   ? location.pathname === "/blog"
                     ? "text-foreground"
                     : "text-muted-foreground hover:text-foreground"
@@ -87,7 +90,7 @@ const Navbar = () => {
             <Link
               to="/open-account"
               className={`inline-flex items-center px-6 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 ${
-                scrolled
+                navbarSolid
                   ? "bg-foreground text-background"
                   : "bg-white text-black"
               }`}
@@ -102,8 +105,8 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen
-              ? <X size={24} className={scrolled ? "text-foreground" : "text-white"} />
-              : <Menu size={24} className={scrolled ? "text-foreground" : "text-white"} />
+              ? <X size={24} className={navbarSolid ? "text-foreground" : "text-white"} />
+              : <Menu size={24} className={navbarSolid ? "text-foreground" : "text-white"} />
             }
           </button>
         </div>

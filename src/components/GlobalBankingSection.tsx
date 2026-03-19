@@ -76,9 +76,9 @@ const GlobalBankingSection = ({ showMap = false }: GlobalBankingSectionProps) =>
         </div>
 
         {/* Row 1 - moves left to right */}
-        <div className="relative mb-8 overflow-hidden max-w-5xl mx-auto">
-          <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-secondary/80 to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-secondary/80 to-transparent z-10 pointer-events-none" />
+        <div className="relative mb-8 overflow-hidden max-w-7xl mx-auto">
+          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-secondary/30 to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-secondary/30 to-transparent z-10 pointer-events-none" />
           <div className="flex animate-scroll-right">
             {row1Items.map((country, i) => (
               <FlagItem key={`r1-${i}`} flag={country.flag} name={country.name} />
@@ -87,9 +87,9 @@ const GlobalBankingSection = ({ showMap = false }: GlobalBankingSectionProps) =>
         </div>
 
         {/* Row 2 - moves right to left */}
-        <div className="relative overflow-hidden max-w-5xl mx-auto">
-          <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-secondary/80 to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-secondary/80 to-transparent z-10 pointer-events-none" />
+        <div className="relative overflow-hidden max-w-7xl mx-auto">
+          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-secondary/30 to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-secondary/30 to-transparent z-10 pointer-events-none" />
           <div className="flex animate-scroll-left">
             {row2Items.map((country, i) => (
               <FlagItem key={`r2-${i}`} flag={country.flag} name={country.name} />

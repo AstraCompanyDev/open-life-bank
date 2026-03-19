@@ -52,8 +52,8 @@ const CardTypesSection = () => {
             The U-topia Ecosystem
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-            Introducing the{" "}
-            <span className="gradient-text">U-topia Platform</span>
+            Introducing{" "}
+            <span className="gradient-text">U-topia</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">
             U-topia brings a new standard to digital finance with a fully integrated banking ecosystem.

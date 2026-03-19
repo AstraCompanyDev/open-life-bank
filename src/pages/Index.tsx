@@ -21,6 +21,7 @@ const Index = () => {
       <GlobalBankingSection />
       <TeamSection />
       <BankForPeopleSection />
+      <AccountsSection />
       <LifestyleSection />
       <CTASection />
       <Footer />

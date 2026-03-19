@@ -66,7 +66,7 @@ const Navbar = () => {
             className="md:hidden text-foreground"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X size={24} className="text-white" /> : <Menu size={24} className="text-white" />}
           </button>
         </div>
 

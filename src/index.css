@@ -41,6 +41,11 @@
     letter-spacing: -0.02em;
   }
 
+  main {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 220 20% 12%;

@@ -3,6 +3,7 @@ import team2 from "@/assets/team/team-2.avif";
 import team3 from "@/assets/team/team-3.avif";
 import team4 from "@/assets/team/team-4.avif";
 import team5 from "@/assets/team/team-5.avif";
+import team6 from "@/assets/team/team-6.avif";
 import kyleKemper from "@/assets/team/kyle-kemper.png";
 import team7 from "@/assets/team/team-7.avif";
 

@@ -5,7 +5,6 @@ import logoUtopia from "@/assets/logo-utopia.avif";
 
 const navLinks = [
   { label: "About", to: "/about" },
-  { label: "Cards", to: "/cards" },
 ];
 
 const Navbar = () => {

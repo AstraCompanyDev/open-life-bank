@@ -16,11 +16,20 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50">
       <div className="mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         <div className="flex items-center h-20">
-          {/* Logo + Core Pages (left) */}
-          <div className="hidden md:flex items-center gap-8">
-            <Link to="/" className="flex items-center gap-2 mr-2">
+          {/* Logo (left) */}
+          <div className="hidden md:flex items-center">
+            <Link to="/" className="flex items-center gap-2">
               <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
             </Link>
+          </div>
+
+          {/* Mobile logo */}
+          <Link to="/" className="md:hidden flex items-center gap-2">
+            <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
+          </Link>
+
+          {/* Right side: nav links + CTA */}
+          <div className="hidden md:flex items-center gap-8 ml-auto">
             {navLinks.map((link) => (
               <Link
                 key={link.to}
@@ -34,15 +43,6 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-          </div>
-
-          {/* Mobile logo */}
-          <Link to="/" className="md:hidden flex items-center gap-2">
-            <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
-          </Link>
-
-          {/* Right side: secondary links + CTA */}
-          <div className="hidden md:flex items-center gap-6 ml-auto">
             <Link
               to="/blog"
               className={`text-sm font-medium transition-colors ${

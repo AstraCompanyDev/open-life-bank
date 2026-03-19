@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div
           className="relative rounded-2xl overflow-hidden h-screen flex items-end"
           style={{
-            backgroundImage: `url(${heroAppDark})`,
+            backgroundImage: `url(${heroMobileMockup})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

@@ -13,7 +13,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 navbar-glass">
+    <nav className="fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-12 xl:px-16">
         <div className="flex items-center h-16">
           {/* Logo + Core Pages (left) */}

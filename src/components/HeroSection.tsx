@@ -5,10 +5,10 @@ import heroAppDark from "@/assets/hero-app-dark.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative pt-28 pb-16 bg-background">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative pt-20 pb-16 bg-background">
+      <div className="mx-auto px-2 sm:px-3">
         <div
-          className="relative rounded-3xl overflow-hidden min-h-[75vh] flex items-center"
+          className="relative rounded-2xl overflow-hidden min-h-[85vh] flex items-end"
           style={{
             backgroundImage: `url(${heroAppDark})`,
             backgroundSize: "cover",

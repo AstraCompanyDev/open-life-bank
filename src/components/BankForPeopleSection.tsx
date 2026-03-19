@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const BankForPeopleSection = () => {
   return (
     <section className="py-8 bg-background">
-      <div className="mx-auto px-2 sm:px-3">
+      <div className="mx-auto px-10 sm:px-16 lg:px-24 xl:px-32">
         <div className="relative min-h-[64vh] flex items-center overflow-hidden rounded-2xl">
           {/* Background Video */}
           <video

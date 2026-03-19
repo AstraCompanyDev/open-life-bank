@@ -1,21 +1,15 @@
-import berkleyBank from "@/assets/partners/berkley-bank.png";
-import citibank from "@/assets/partners/citibank.png";
-import gdaCapital from "@/assets/partners/gda-capital-v2.png";
-import grupoAts from "@/assets/partners/grupo-ats.png";
-import hsbc from "@/assets/partners/hsbc.png";
-import pentagonGroup from "@/assets/partners/pentagon-group-v2.png";
-import theBlock from "@/assets/partners/the-block-v2.png";
-import ubs from "@/assets/partners/ubs.png";
+import atsGroup from "@/assets/partners/ats-group.png";
+import fireblocks from "@/assets/partners/fireblocks.png";
+import theBlock from "@/assets/partners/the-block-new.png";
+import visa from "@/assets/partners/visa.png";
+import yellowCapital from "@/assets/partners/yellow-capital.png";
 
 const partners = [
-  { name: "Berkley Bank", logo: berkleyBank },
-  { name: "Citibank", logo: citibank },
-  { name: "GDA Capital", logo: gdaCapital },
-  { name: "Grupo ATS", logo: grupoAts },
-  { name: "HSBC", logo: hsbc },
-  { name: "Pentagon Group", logo: pentagonGroup },
+  { name: "ATS Group", logo: atsGroup },
+  { name: "Fireblocks", logo: fireblocks },
   { name: "The Block", logo: theBlock },
-  { name: "UBS", logo: ubs },
+  { name: "Visa", logo: visa },
+  { name: "Yellow Capital", logo: yellowCapital },
 ];
 
 const PartnersSection = () => {

@@ -11,7 +11,7 @@ const teamMembers = [
   { name: "Owen Man Cheong Ma", role: "Co-Founder & CRO", bio: "Co-founder of U-topia", image: team3, linkedin: "https://sg.linkedin.com/in/omcma" },
   { name: "Maissa Ballout", role: "Chief Financial Officer", bio: "Financial strategy leader", image: team4, linkedin: "https://il.linkedin.com/in/maissa-ballout-shamshoum" },
   { name: "Ian Stirling", role: "Chief Strategy Officer", bio: "Strategic growth expert", image: team1, linkedin: "https://uk.linkedin.com/in/ianscottstirling" },
-  { name: "Danosch Zahedi", role: "Regional Network Advisor", bio: "Regional network specialist", image: team2, linkedin: "https://ae.linkedin.com/in/danoschzahedi" },
+  { name: "Kyle Kemper", role: "President", bio: "President of U-topia", image: kyleKemper, linkedin: "#" },
 ];
 
 const TeamSection = () => {

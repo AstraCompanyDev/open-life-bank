@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Wallet, CreditCard, Gift, TrendingUp } from "lucide-react";
+import { Wallet, CreditCard, Gift, TrendingUp, ArrowRight } from "lucide-react";
 import virtualImg from "@/assets/card-ubank-app.png";
 import plasticImg from "@/assets/card-upay-checkout.png";
 import metalImg from "@/assets/card-uearn-premium.png";
@@ -46,7 +46,7 @@ const CardTypesSection = () => {
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="flex flex-col sm:flex-row gap-3 h-auto sm:h-[420px] lg:h-[480px]">
           {cardTypes.map((card) => {
             const isActive = activeId === card.id;
             const Icon = card.icon;
@@ -56,44 +56,46 @@ const CardTypesSection = () => {
                 key={card.id}
                 onMouseEnter={() => setActiveId(card.id)}
                 onMouseLeave={() => setActiveId(null)}
-                className="group relative rounded-2xl overflow-hidden cursor-pointer h-[360px] md:h-[420px]"
+                className={`relative rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 ease-in-out h-[280px] sm:h-full ${
+                  isActive ? "sm:flex-[2.5]" : "sm:flex-1"
+                }`}
               >
                 {/* Image always visible */}
                 <img
                   src={card.image}
                   alt={card.label}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-
-                {/* Default gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-
-                {/* Hover overlay - darker */}
-                <div
-                  className={`absolute inset-0 bg-black/40 transition-opacity duration-300 ${
-                    isActive ? "opacity-100" : "opacity-0"
+                  className={`absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out ${
+                    isActive ? "scale-110" : "scale-100"
                   }`}
                 />
 
-                {/* Label - always visible at bottom */}
+                {/* Default gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+
+                {/* Content container */}
                 <div className="absolute inset-0 flex flex-col justify-end p-5 md:p-6">
-                  {/* Description - slides up on hover */}
+                  {/* Expanded info - visible on hover */}
                   <div
-                    className={`transition-all duration-400 ease-out overflow-hidden ${
-                      isActive ? "max-h-40 opacity-100 mb-3" : "max-h-0 opacity-0 mb-0"
+                    className={`transition-all duration-500 ease-out overflow-hidden ${
+                      isActive ? "max-h-48 opacity-100 mb-4" : "max-h-0 opacity-0 mb-0"
                     }`}
                   >
-                    <p className="text-sm text-white/90 leading-relaxed">
+                    <h3 className="text-lg font-bold text-white mb-2">{card.label}</h3>
+                    <p className="text-sm text-white/85 leading-relaxed mb-3">
                       {card.description}
                     </p>
+                    <div className="w-9 h-9 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
+                      <ArrowRight className="w-4 h-4 text-white" />
+                    </div>
                   </div>
 
-                  {/* Label bar */}
-                  <div className="bg-white/15 backdrop-blur-md rounded-xl px-4 py-3 flex items-center gap-3">
-                    <Icon className="w-5 h-5 text-white flex-shrink-0" />
-                    <h3 className="text-base font-semibold text-white">
-                      {card.label}
-                    </h3>
+                  {/* Label bar - always visible, hides when expanded */}
+                  <div
+                    className={`bg-white/15 backdrop-blur-md rounded-xl px-4 py-3 transition-all duration-500 ${
+                      isActive ? "opacity-0 max-h-0 -mb-4" : "opacity-100 max-h-16"
+                    }`}
+                  >
+                    <h3 className="text-sm font-semibold text-white">{card.label}</h3>
                   </div>
                 </div>
               </div>

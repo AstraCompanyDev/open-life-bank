@@ -13,8 +13,8 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 z-50 left-10 right-10 sm:left-16 sm:right-16 lg:left-24 lg:right-24 xl:left-32 xl:right-32">
-      <div className="mx-auto">
+    <nav className="fixed top-2 z-50 left-10 right-10 sm:left-16 sm:right-16 lg:left-24 lg:right-24 xl:left-32 xl:right-32">
+      <div className="mx-auto px-5 sm:px-6">
         <div className="flex items-center h-24">
           {/* Logo (left) */}
           <div className="hidden md:flex items-center">

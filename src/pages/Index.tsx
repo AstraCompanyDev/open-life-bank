@@ -9,18 +9,16 @@ import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
-    <>
+    <main className="min-h-screen bg-background">
       <Navbar />
-      <main className="min-h-screen bg-background">
-        <HeroSection />
-        <PartnersSection />
-        <CardTypesSection />
-        <BankForPeopleSection />
-        <CTASection />
-        <Footer />
-        <ScrollToTop />
-      </main>
-    </>
+      <HeroSection />
+      <PartnersSection />
+      <CardTypesSection />
+      <BankForPeopleSection />
+      <CTASection />
+      <Footer />
+      <ScrollToTop />
+    </main>
   );
 };
 

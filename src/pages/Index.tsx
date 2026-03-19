@@ -20,9 +20,9 @@ const Index = () => {
       <PartnersSection />
       <VideoSection />
       <CardTypesSection />
-      <BankForPeopleSection />
       <GlobalBankingSection showMap />
       <FeaturesSection />
+      <BankForPeopleSection />
       <LifestyleSection />
       <TeamSection />
       <CTASection />

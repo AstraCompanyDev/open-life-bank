@@ -45,7 +45,7 @@ const Navbar = () => {
             ))}
             <Link
               to="/blog"
-              className={`text-sm font-medium transition-colors ${
+              className={`text-base font-medium transition-colors ${
                 location.pathname === "/blog"
                   ? "text-white"
                   : "text-white/70 hover:text-white"

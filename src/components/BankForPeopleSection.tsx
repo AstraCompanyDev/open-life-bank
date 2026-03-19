@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const BankForPeopleSection = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[72vh] flex items-center overflow-hidden">
       {/* Background Video */}
       <video
         autoPlay

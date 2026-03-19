@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Logo + Core Pages (left) */}
           <div className="hidden md:flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2 mr-2">
-              <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0" />
+              <img src={logoUtopia} alt="U-topia" className="h-5 w-auto brightness-0 invert" />
             </Link>
             {navLinks.map((link) => (
               <Link

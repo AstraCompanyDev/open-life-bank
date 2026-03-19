@@ -38,7 +38,7 @@ const PartnersSection = () => {
                 src={partner.logo}
                 alt={partner.name}
                 loading="lazy"
-                className="h-[4.4rem] md:h-[6rem] max-w-[242px] md:max-w-[290px] w-auto object-contain block opacity-70 hover:opacity-100 transition-opacity duration-300"
+                className="h-[3.7rem] md:h-[5.1rem] max-w-[206px] md:max-w-[247px] w-auto object-contain block opacity-70 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
           ))}

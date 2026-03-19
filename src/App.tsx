@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/hooks/use-auth";
 import Index from "./pages/Index";
 import Ecosystem from "./pages/Ecosystem";
+import Contact from "./pages/Contact";
 
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -31,6 +32,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
+            <Route path="/contact" element={<Contact />} />
             
             <Route path="/about" element={<About />} />
             <Route path="/get-upay" element={<GetUPay />} />

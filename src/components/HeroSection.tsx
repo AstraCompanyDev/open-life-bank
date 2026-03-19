@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Smartphone } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroAppDark from "@/assets/hero-app-dark.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative pt-0 pb-16 bg-background">
+    <section className="relative pt-0 pb-0 bg-background">
       <div className="mx-auto px-2 sm:px-3">
         <div
-          className="relative rounded-2xl overflow-hidden min-h-[85vh] flex items-end"
+          className="relative rounded-2xl overflow-hidden h-screen flex items-end"
           style={{
             backgroundImage: `url(${heroAppDark})`,
             backgroundSize: "cover",
@@ -19,7 +19,7 @@ const HeroSection = () => {
           <div className="absolute inset-0 bg-black/40" />
 
           <div className="relative z-10 w-full px-8 md:px-16 py-14">
-            <div className="max-w-2xl space-y-8">
+            <div className="max-w-2xl space-y-6">
               <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight text-white">
                 A <span className="whitespace-nowrap">U-topia</span>{" "}
                 <span className="gradient-text">built for YOU</span>
@@ -29,38 +29,12 @@ const HeroSection = () => {
                 Reimagining money so you can spend, save, earn, and invest your way. The best of Web2 & Web3 — putting YOU first.
               </p>
 
-              <div className="flex gap-4">
-                <Link to="/open-account">
-                  <Button variant="hero" size="lg">
-                    Open Account
-                    <ArrowRight className="ml-2 w-4 h-4" />
-                  </Button>
-                </Link>
-                <Link to="/get-upay">
-                  <Button variant="outline" size="lg" className="rounded-full border-white/30 text-white hover:bg-white/10">
-                    <Smartphone className="mr-2 w-4 h-4" />
-                    Get uPay
-                  </Button>
-                </Link>
-              </div>
-
-              {/* Trust indicators */}
-              <div className="flex items-center gap-8 pt-4">
-                <div>
-                  <p className="text-3xl font-bold text-white">70%</p>
-                  <p className="text-sm text-white/60">Fee savings</p>
-                </div>
-                <div className="w-px h-12 bg-white/20" />
-                <div>
-                  <p className="text-3xl font-bold text-white">Instant</p>
-                  <p className="text-sm text-white/60">Settlements</p>
-                </div>
-                <div className="w-px h-12 bg-white/20" />
-                <div>
-                  <p className="text-3xl font-bold text-white">Global</p>
-                  <p className="text-sm text-white/60">Payments</p>
-                </div>
-              </div>
+              <Link to="/open-account">
+                <Button variant="hero" size="lg">
+                  Open Account
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

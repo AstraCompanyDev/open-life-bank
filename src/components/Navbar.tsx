@@ -47,8 +47,8 @@ const Navbar = () => {
               to="/blog"
               className={`text-sm font-medium transition-colors ${
                 location.pathname === "/blog"
-                  ? "text-foreground"
-                  : "text-muted-foreground hover:text-foreground"
+                  ? "text-white"
+                  : "text-white/70 hover:text-white"
               }`}
             >
               Blog

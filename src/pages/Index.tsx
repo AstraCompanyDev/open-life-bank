@@ -1,8 +1,12 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import PartnersSection from "@/components/PartnersSection";
+import VideoSection from "@/components/VideoSection";
 import CardTypesSection from "@/components/CardTypesSection";
 import BankForPeopleSection from "@/components/BankForPeopleSection";
+import GlobalBankingSection from "@/components/GlobalBankingSection";
+import FeaturesSection from "@/components/FeaturesSection";
+import LifestyleSection from "@/components/LifestyleSection";
 import TeamSection from "@/components/TeamSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -14,8 +18,12 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <PartnersSection />
+      <VideoSection />
       <CardTypesSection />
       <BankForPeopleSection />
+      <GlobalBankingSection showMap />
+      <FeaturesSection />
+      <LifestyleSection />
       <TeamSection />
       <CTASection />
       <Footer />

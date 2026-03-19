@@ -39,6 +39,8 @@
   html {
     font-size: 85%;
     letter-spacing: -0.02em;
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   :root {

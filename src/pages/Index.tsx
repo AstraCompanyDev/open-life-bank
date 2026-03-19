@@ -18,9 +18,9 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <PartnersSection />
+      <FeaturesSection />
       <CardTypesSection />
       <GlobalBankingSection showMap />
-      <FeaturesSection />
       <VideoSection />
       <BankForPeopleSection />
       <LifestyleSection />

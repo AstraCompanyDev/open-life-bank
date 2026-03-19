@@ -6,7 +6,7 @@ import heroAppDark from "@/assets/hero-app-dark.png";
 const HeroSection = () => {
   return (
     <section className="relative pt-0 pb-0 bg-background">
-      <div className="mx-auto px-2 sm:px-3">
+      <div className="mx-auto px-10 sm:px-16 lg:px-24 xl:px-32">
         <div
           className="relative rounded-2xl overflow-hidden h-screen flex items-end"
           style={{

@@ -41,12 +41,12 @@ const cardTypes = [
 ];
 
 const CardTypesSection = () => {
-  const [activeId, setActiveId] = useState("ubank");
+  const [activeId, setActiveId] = useState<string | null>(null);
 
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
-        <div className="flex flex-col lg:flex-row gap-4 h-auto lg:h-[420px]">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {cardTypes.map((card) => {
             const isActive = activeId === card.id;
             const Icon = card.icon;
@@ -55,55 +55,46 @@ const CardTypesSection = () => {
               <div
                 key={card.id}
                 onMouseEnter={() => setActiveId(card.id)}
-                className={`relative rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 ease-in-out ${
-                  isActive
-                    ? "lg:flex-[3] flex-auto"
-                    : "lg:flex-[1] flex-auto"
-                } ${isActive ? "h-[320px] lg:h-full" : "h-[100px] lg:h-full"}`}
+                onMouseLeave={() => setActiveId(null)}
+                className="group relative rounded-2xl overflow-hidden cursor-pointer h-[360px] md:h-[420px]"
               >
-                {/* Expanded state - with image */}
+                {/* Image always visible */}
+                <img
+                  src={card.image}
+                  alt={card.label}
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+
+                {/* Default gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+                {/* Hover overlay - darker */}
                 <div
-                  className={`absolute inset-0 transition-opacity duration-500 ${
+                  className={`absolute inset-0 bg-black/40 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-0"
                   }`}
-                >
-                  <img
-                    src={card.image}
-                    alt={card.label}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                />
 
-                  {/* Content overlay */}
-                  <div className="absolute inset-0 flex flex-col justify-between p-6 md:p-8">
-                    <div>
-                      <div className="w-10 h-10 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm flex items-center justify-center mb-3">
-                        <Icon className="w-5 h-5 text-white" />
-                      </div>
-                      <h3 className="text-xl font-bold text-white">
-                        {card.label}
-                      </h3>
-                    </div>
-                    <p className="text-sm md:text-base text-white/90 max-w-md leading-relaxed">
+                {/* Label - always visible at bottom */}
+                <div className="absolute inset-0 flex flex-col justify-end p-5 md:p-6">
+                  {/* Description - slides up on hover */}
+                  <div
+                    className={`transition-all duration-400 ease-out overflow-hidden ${
+                      isActive ? "max-h-40 opacity-100 mb-3" : "max-h-0 opacity-0 mb-0"
+                    }`}
+                  >
+                    <p className="text-sm text-white/90 leading-relaxed">
                       {card.description}
                     </p>
                   </div>
-                </div>
 
-                {/* Collapsed state - minimal */}
-                <div
-                  className={`absolute inset-0 bg-secondary/50 border border-border/50 rounded-2xl flex transition-opacity duration-500 ${
-                    isActive ? "opacity-0 pointer-events-none" : "opacity-100"
-                  } ${
-                    isActive ? "" : "flex-row lg:flex-col"
-                  } items-center lg:items-start gap-3 p-5 lg:p-6`}
-                >
-                  <div className="w-10 h-10 rounded-lg border border-border bg-card flex items-center justify-center flex-shrink-0">
-                    <Icon className="w-5 h-5 text-foreground" />
+                  {/* Label bar */}
+                  <div className="bg-white/15 backdrop-blur-md rounded-xl px-4 py-3 flex items-center gap-3">
+                    <Icon className="w-5 h-5 text-white flex-shrink-0" />
+                    <h3 className="text-base font-semibold text-white">
+                      {card.label}
+                    </h3>
                   </div>
-                  <h3 className="text-base font-semibold text-foreground">
-                    {card.label}
-                  </h3>
                 </div>
               </div>
             );

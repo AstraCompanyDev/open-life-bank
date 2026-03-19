@@ -24,7 +24,7 @@ const PartnersSection = () => {
       </div>
 
       {/* Marquee Container */}
-      <div className="relative">
+      <div className="relative max-w-5xl mx-auto">
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
 
@@ -32,13 +32,13 @@ const PartnersSection = () => {
           {duplicatedPartners.map((partner, index) => (
             <div
               key={index}
-              className="flex-shrink-0 px-12 md:px-16 lg:px-20 h-24 md:h-32 flex items-center justify-center"
+              className="flex-shrink-0 px-8 md:px-12 lg:px-14 h-20 md:h-24 flex items-center justify-center"
             >
               <img
                 src={partner.logo}
                 alt={partner.name}
                 loading="lazy"
-                className="h-[3.7rem] md:h-[5.1rem] max-w-[206px] md:max-w-[247px] w-auto object-contain block opacity-70 hover:opacity-100 transition-opacity duration-300"
+                className="h-[2.6rem] md:h-[3.6rem] max-w-[144px] md:max-w-[173px] w-auto object-contain block opacity-70 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
           ))}

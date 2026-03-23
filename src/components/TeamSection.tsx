@@ -10,8 +10,6 @@ import team7 from "@/assets/team/team-7.avif";
 const teamMembers = [
   { name: "Emmanuel Quezada", role: "Founder & CEO", bio: "Founder of U-topia", image: team6, linkedin: "https://ae.linkedin.com/in/emmanuel-quezada/en" },
   { name: "Owen Man Cheong Ma", role: "Co-Founder & CRO", bio: "Co-founder of U-topia", image: team3, linkedin: "https://sg.linkedin.com/in/omcma" },
-  { name: "Maissa Ballout", role: "Chief Financial Officer", bio: "Financial strategy leader", image: team4, linkedin: "https://il.linkedin.com/in/maissa-ballout-shamshoum" },
-  { name: "Ian Stirling", role: "Chief Strategy Officer", bio: "Strategic growth expert", image: team1, linkedin: "https://uk.linkedin.com/in/ianscottstirling" },
   { name: "Kyle Kemper", role: "President", bio: "President of U-topia", image: kyleKemper, linkedin: "#" },
 ];
 
@@ -30,7 +28,7 @@ const TeamSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
           {teamMembers.map((member) => (
             <a
               key={member.name}

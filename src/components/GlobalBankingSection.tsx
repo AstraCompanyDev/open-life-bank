@@ -68,7 +68,7 @@ const GlobalBankingSection = ({ showMap = false }: GlobalBankingSectionProps) =>
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             A truly{" "}
-            <span className="gradient-text">global banking system</span>
+            <span className="gradient-text">global remittance</span>
           </h2>
           <p className="text-xl text-muted-foreground">
             Send, spend, and receive money across 180+ countries — with no borders and no barriers.

@@ -9,10 +9,6 @@ const features = [
   { icon: Gift, text: "Exclusive rewards & perks" },
 ];
 
-const comingSoonFeatures = [
-  { icon: PiggyBank, text: "High-yield stablecoin savings up to 18%" },
-  { icon: Landmark, text: "Loans - collateralized and uncollateralized" },
-];
 
 const AccountsSection = () => {
   return (

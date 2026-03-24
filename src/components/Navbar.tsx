@@ -73,20 +73,6 @@ const Navbar = () => {
               </Link>
             ))}
             <Link
-              to="/blog"
-              className={`text-lg font-medium transition-colors ${
-                navbarSolid
-                  ? location.pathname === "/blog"
-                    ? "text-foreground"
-                    : "text-muted-foreground hover:text-foreground"
-                  : location.pathname === "/blog"
-                    ? "text-white"
-                    : "text-white/70 hover:text-white"
-              }`}
-            >
-              Blog
-            </Link>
-            <Link
               to="/open-account"
               className={`inline-flex items-center px-6 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 ${
                 navbarSolid

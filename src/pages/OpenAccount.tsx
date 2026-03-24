@@ -128,7 +128,7 @@ const OpenAccount = () => {
               <span className="gradient-text">U-Topia</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto">
-              Join the waitlist to be among the first to experience seamless crypto management with 70,000+ assets in one app.
+              Join the waitlist for early access to seamless crypto management — all in one app.
             </p>
           </div>
 

@@ -23,8 +23,7 @@ const TeamSection = () => {
             <span className="gradient-text">& Builders</span>
           </h2>
           <p className="text-muted-foreground text-base max-w-2xl leading-relaxed">
-            U-topia is built by pioneers in fintech, crypto, and traditional finance.
-            This isn't our first breakthrough. But it might be yours.
+            Built by experienced fintech operators with a track record of launching, scaling, and delivering real-world financial products.
           </p>
         </div>
 

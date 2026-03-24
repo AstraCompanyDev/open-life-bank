@@ -27,7 +27,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={utopiaLogo} alt="U-topia" className="h-10 w-auto" />
+              <img src={utopiaLogo} alt="U-topia" className="h-10 w-auto brightness-0" />
             </Link>
             <p className="text-muted-foreground mb-6 max-w-xs">
               U-topia is built around you — bringing together modern banking, digital assets, and cross-chain access into one seamless, all-in-one wallet.

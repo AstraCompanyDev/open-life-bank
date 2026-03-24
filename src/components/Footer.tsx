@@ -9,7 +9,6 @@ const XIcon = ({ className }: { className?: string }) => (
 );
 
 const socialLinks = [
-  { label: "Telegram", href: "https://t.me/U_topiaecosystem", icon: Send },
   { label: "Twitter", href: "https://x.com/UCoinOfficial", icon: XIcon },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/u-topia/", icon: Linkedin },
   { label: "Instagram", href: "https://www.instagram.com/ucoinofficial", icon: Instagram },

@@ -75,7 +75,7 @@ const AccountsSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground max-w-lg">
-              Track, earn, and grow your portfolio across 7,000+ crypto assets – all in one app.
+              Track, earn, and grow your portfolio across a wide range of digital assets — all in one app.
             </p>
             
             <Link to="/open-account" className="inline-block mt-2">

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Send, Linkedin, Instagram } from "lucide-react";
+import { Linkedin, Instagram } from "lucide-react";
 import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const XIcon = ({ className }: { className?: string }) => (
@@ -9,7 +9,6 @@ const XIcon = ({ className }: { className?: string }) => (
 );
 
 const socialLinks = [
-  { label: "Telegram", href: "https://t.me/U_topiaecosystem", icon: Send },
   { label: "Twitter", href: "https://x.com/UCoinOfficial", icon: XIcon },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/u-topia/", icon: Linkedin },
   { label: "Instagram", href: "https://www.instagram.com/ucoinofficial", icon: Instagram },

@@ -38,7 +38,7 @@ const BankForPeopleSection = () => {
               <div className="flex gap-4 pt-2">
                 <Link to="/open-account">
                   <Button variant="hero" size="lg">
-                    Get Started
+                    Join the Waitlist
                     <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
                 </Link>

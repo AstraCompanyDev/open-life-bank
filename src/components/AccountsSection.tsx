@@ -84,7 +84,7 @@ const AccountsSection = () => {
             
             <Link to="/open-account" className="inline-block mt-2">
               <Button variant="hero" size="lg">
-                Open Account
+                Join the Waitlist
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>

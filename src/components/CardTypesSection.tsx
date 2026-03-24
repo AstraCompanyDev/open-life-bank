@@ -3,7 +3,7 @@ import { Wallet, CreditCard, Gift, TrendingUp, ArrowRight } from "lucide-react";
 import virtualImg from "@/assets/card-ubank-app.png";
 import plasticImg from "@/assets/card-upay-checkout.png";
 import metalImg from "@/assets/card-uearn-premium.png";
-import investImg from "@/assets/lifestyle-crypto.jpg";
+import investImg from "@/assets/lifestyle-global-banking.jpg";
 
 const cardTypes = [
   {

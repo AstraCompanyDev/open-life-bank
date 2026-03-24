@@ -89,8 +89,8 @@ const AccountsSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-4">
               {features.map((feature, index) => (
                 <div key={index} className="flex flex-col items-center text-center p-5 rounded-3xl bg-white card-clean">
-                  <div className="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center mb-3">
-                    <feature.icon className="w-5 h-5 text-primary" />
+                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-3">
+                    <feature.icon className="w-7 h-7 text-primary" />
                   </div>
                   <span className="text-sm text-muted-foreground font-medium leading-snug">{feature.text}</span>
                 </div>

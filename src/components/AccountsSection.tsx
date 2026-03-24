@@ -4,15 +4,11 @@ import { ArrowRight, Coins, Headphones, Gift, PiggyBank, Landmark } from "lucide
 import lifestyleImage from "@/assets/lifestyle-travel.jpg";
 
 const features = [
-  { icon: Coins, text: "+7,000 currencies supported" },
+  { icon: Coins, text: "Multiple currency support" },
   { icon: Headphones, text: "24/7 multi-language support" },
   { icon: Gift, text: "Exclusive rewards & perks" },
 ];
 
-const comingSoonFeatures = [
-  { icon: PiggyBank, text: "High-yield stablecoin savings up to 18%" },
-  { icon: Landmark, text: "Loans - collateralized and uncollateralized" },
-];
 
 const AccountsSection = () => {
   return (
@@ -79,7 +75,7 @@ const AccountsSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground max-w-lg">
-              Track, earn, and grow your portfolio across 7,000+ crypto assets – all in one app.
+              Track, earn, and grow your portfolio across a wide range of digital assets — all in one app.
             </p>
             
             <Link to="/open-account" className="inline-block mt-2">
@@ -101,18 +97,6 @@ const AccountsSection = () => {
               ))}
             </div>
 
-            {/* Coming Soon */}
-            <div className="space-y-3 pt-2">
-              {comingSoonFeatures.map((feature, index) => (
-                <div key={index} className="flex items-center gap-4 p-4 rounded-3xl bg-white card-clean">
-                  <div className="w-10 h-10 rounded-2xl bg-accent/10 flex items-center justify-center flex-shrink-0">
-                    <feature.icon className="w-5 h-5 text-accent" />
-                  </div>
-                  <span className="text-sm font-medium flex-1">{feature.text}</span>
-                  <span className="text-xs font-semibold text-accent animate-pulse whitespace-nowrap">coming soon</span>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

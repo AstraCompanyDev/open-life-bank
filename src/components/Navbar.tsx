@@ -94,7 +94,7 @@ const Navbar = () => {
                   : "bg-white text-black"
               }`}
             >
-              Open an account
+              Join the Waitlist
             </Link>
           </div>
 

@@ -124,8 +124,8 @@ const OpenAccount = () => {
         <div className="container mx-auto max-w-2xl relative z-10">
           <div className="text-center mb-12 animate-fade-up">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-              Open your{" "}
-              <span className="gradient-text">uBank Account</span>
+              Be the First to hear about{" "}
+              <span className="gradient-text">U-Topia</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto">
               Join the waitlist to be among the first to experience seamless crypto management with 70,000+ assets in one app.

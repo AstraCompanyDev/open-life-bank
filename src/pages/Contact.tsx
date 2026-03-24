@@ -23,13 +23,20 @@ const Contact = () => {
       return;
     }
     setSending(true);
-    // Simulate send
-    await new Promise((r) => setTimeout(r, 1000));
-    toast.success("Message sent! We'll get back to you soon.");
-    setName("");
-    setEmail("");
-    setMessage("");
-    setSending(false);
+    try {
+      const { data, error } = await supabase.functions.invoke("send-contact-message", {
+        body: { name, email, message },
+      });
+      if (error) throw error;
+      toast.success("Message sent! We'll get back to you soon.");
+      setName("");
+      setEmail("");
+      setMessage("");
+    } catch (err) {
+      toast.error("Failed to send message. Please try again.");
+    } finally {
+      setSending(false);
+    }
   };
 
   return (

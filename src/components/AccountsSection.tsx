@@ -97,18 +97,6 @@ const AccountsSection = () => {
               ))}
             </div>
 
-            {/* Coming Soon */}
-            <div className="space-y-3 pt-2">
-              {comingSoonFeatures.map((feature, index) => (
-                <div key={index} className="flex items-center gap-4 p-4 rounded-3xl bg-white card-clean">
-                  <div className="w-10 h-10 rounded-2xl bg-accent/10 flex items-center justify-center flex-shrink-0">
-                    <feature.icon className="w-5 h-5 text-accent" />
-                  </div>
-                  <span className="text-sm font-medium flex-1">{feature.text}</span>
-                  <span className="text-xs font-semibold text-accent animate-pulse whitespace-nowrap">coming soon</span>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

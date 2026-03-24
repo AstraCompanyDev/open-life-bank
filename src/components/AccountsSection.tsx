@@ -4,7 +4,7 @@ import { ArrowRight, Coins, Headphones, Gift, PiggyBank, Landmark } from "lucide
 import lifestyleImage from "@/assets/lifestyle-travel.jpg";
 
 const features = [
-  { icon: Coins, text: "+7,000 currencies supported" },
+  { icon: Coins, text: "Multiple currency support" },
   { icon: Headphones, text: "24/7 multi-language support" },
   { icon: Gift, text: "Exclusive rewards & perks" },
 ];

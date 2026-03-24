@@ -32,7 +32,7 @@ const cardTypes = [
   },
   {
     id: "uinvest",
-    label: "U-Invest",
+    label: "Global Banking",
     icon: TrendingUp,
     image: investImg,
     description:

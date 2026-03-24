@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Send, Linkedin, Instagram } from "lucide-react";
+import { Linkedin, Instagram } from "lucide-react";
 import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const XIcon = ({ className }: { className?: string }) => (

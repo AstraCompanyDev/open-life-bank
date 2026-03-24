@@ -133,7 +133,7 @@ const Navbar = () => {
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-foreground text-background text-sm font-semibold mt-2"
                 onClick={() => setIsOpen(false)}
               >
-                Open an account
+                Join the Waitlist
               </Link>
             </div>
           </div>

@@ -31,7 +31,7 @@ const CTASection = () => {
             <div className="flex-shrink-0">
               <a href="https://u-dex.com/stake/" target="_blank" rel="noopener noreferrer">
                 <Button variant="hero" size="lg" className="whitespace-nowrap">
-                  Discover What's Next
+                  Join the Waitlist
                   <ArrowRight className="ml-2" />
                 </Button>
               </a>

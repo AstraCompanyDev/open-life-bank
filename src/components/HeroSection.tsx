@@ -32,7 +32,7 @@ const HeroSection = () => {
               <div className="pt-4">
                 <Link to="/open-account">
                   <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 hover:border-white">
-                    Open Account
+                    Join the Waitlist
                     <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
                 </Link>

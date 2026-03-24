@@ -8,7 +8,6 @@ import { Send, Mail, MapPin } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
-import { toast } from "sonner";
 
 const Contact = () => {
   const [name, setName] = useState("");

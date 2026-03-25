@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/hooks/use-auth";
 import Index from "./pages/Index";
+import Maintenance from "./pages/Maintenance";
 import Ecosystem from "./pages/Ecosystem";
 import Contact from "./pages/Contact";
 
@@ -30,7 +31,7 @@ const App = () => (
         <AuthProvider>
           <ScrollToTopOnNavigate />
           <Routes>
-            <Route path="/" element={<Index />} />
+            <Route path="/" element={<Maintenance />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
             <Route path="/contact" element={<Contact />} />
             

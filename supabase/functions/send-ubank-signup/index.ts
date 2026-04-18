@@ -30,8 +30,8 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to U-topia team
     const adminEmailResponse = await resend.emails.send({
       from: "U-topia <noreply@u-topia.com>",
-      to: ["info@u-topia.com"],
-      subject: `New uBank Account Signup from ${name}`,
+      to: ["info@u-topia.com", "sean@astracompany.co"],
+      subject: `New Waitlist Signup from ${name}`,
       html: `
         <h1>New uBank Account Signup</h1>
         <p>Someone has signed up for the uBank account waitlist:</p>

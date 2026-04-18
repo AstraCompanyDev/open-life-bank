@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const legalLinks = [
-  { label: "Privacy Policy", href: "https://docsend.com/view/3wjptrvw2c35gj8p" },
+  { label: "Privacy Policy", to: "/privacy" },
   { label: "Terms of Service", to: "/terms" },
 ];
 

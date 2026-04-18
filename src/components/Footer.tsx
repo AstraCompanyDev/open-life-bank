@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const legalLinks = [
-  { label: "Privacy Policy", href: "https://docsend.com/view/3wjptrvw2c35gj8p" },
+  { label: "Privacy Policy", to: "/privacy" },
   { label: "Terms of Service", to: "/terms" },
 ];
 
@@ -27,15 +27,9 @@ const Footer = () => {
             <ul className="space-y-3">
               {legalLinks.map((link) => (
                 <li key={link.label}>
-                  {"to" in link ? (
-                    <Link to={link.to} className="text-muted-foreground hover:text-primary transition-colors">
-                      {link.label}
-                    </Link>
-                  ) : (
-                    <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                      {link.label}
-                    </a>
-                  )}
+                  <Link to={link.to} className="text-muted-foreground hover:text-primary transition-colors">
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>

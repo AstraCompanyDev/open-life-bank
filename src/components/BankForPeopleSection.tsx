@@ -42,11 +42,6 @@ const BankForPeopleSection = () => {
                     <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
                 </Link>
-                <Link to="/ecosystem">
-                  <Button variant="outline" size="lg" className="rounded-full">
-                    Learn More
-                  </Button>
-                </Link>
               </div>
             </div>
           </div>

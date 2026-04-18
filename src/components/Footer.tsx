@@ -3,7 +3,7 @@ import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const legalLinks = [
   { label: "Privacy Policy", href: "https://docsend.com/view/3wjptrvw2c35gj8p" },
-  { label: "Terms of Service", href: "https://docsend.com/view/pehz2xqa23xw3pyc" },
+  { label: "Terms of Service", to: "/terms" },
 ];
 
 const Footer = () => {
@@ -27,9 +27,15 @@ const Footer = () => {
             <ul className="space-y-3">
               {legalLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                    {link.label}
-                  </a>
+                  {"to" in link ? (
+                    <Link to={link.to} className="text-muted-foreground hover:text-primary transition-colors">
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                      {link.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>

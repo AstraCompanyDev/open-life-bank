@@ -18,6 +18,7 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Admin from "./pages/Admin";
 import AdminAuth from "./pages/AdminAuth";
+import TermsOfService from "./pages/TermsOfService";
 import ScrollToTopOnNavigate from "./components/ScrollToTopOnNavigate";
 
 const queryClient = new QueryClient();
@@ -42,6 +43,7 @@ const App = () => (
             
             <Route path="/admin" element={<Admin />} />
             <Route path="/admin/auth" element={<AdminAuth />} />
+            <Route path="/terms" element={<TermsOfService />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -31,7 +31,7 @@ const App = () => (
         <AuthProvider>
           <ScrollToTopOnNavigate />
           <Routes>
-            <Route path="/" element={<Maintenance />} />
+            <Route path="/" element={<Index />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
             <Route path="/contact" element={<Contact />} />
             

@@ -6,11 +6,13 @@ import team5 from "@/assets/team/team-5.avif";
 import team6 from "@/assets/team/team-6.avif";
 import kyleKemper from "@/assets/team/kyle-kemper.png";
 import team7 from "@/assets/team/team-7.avif";
+import mayaNicks from "@/assets/team/maya-nicks.jpg";
 
 const teamMembers = [
   { name: "Emmanuel Quezada", role: "Founder & CEO", bio: "Founder of U-topia", image: team6, linkedin: "https://ae.linkedin.com/in/emmanuel-quezada/en" },
   { name: "Owen Man Cheong Ma", role: "Co-Founder & CRO", bio: "Co-founder of U-topia", image: team3, linkedin: "https://sg.linkedin.com/in/omcma" },
   { name: "Kyle Kemper", role: "President", bio: "President of U-topia", image: kyleKemper, linkedin: "#" },
+  { name: "Maya Nicks", role: "CAIO – Chief A.I. Officer", bio: "Chief A.I. Officer of U-topia", image: mayaNicks, linkedin: "#" },
 ];
 
 const TeamSection = () => {

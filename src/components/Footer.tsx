@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const legalLinks = [
-  { label: "Privacy Policy", to: "/privacy" },
+  { label: "Legal", to: "/legal" },
   { label: "Terms of Service", to: "/terms" },
+  { label: "Privacy Policy", to: "/privacy" },
+  { label: "E-Sign Notice", to: "/esign" },
 ];
 
 const Footer = () => {

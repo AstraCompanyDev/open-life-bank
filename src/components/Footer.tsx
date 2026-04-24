@@ -1,18 +1,23 @@
 import { Link } from "react-router-dom";
+import { Twitter, Linkedin, Send } from "lucide-react";
 import utopiaLogo from "@/assets/logo-utopia.avif";
 
-const legalLinks = [
+const companyLinks = [
+  { label: "About Us", to: "/about" },
   { label: "Legal", to: "/legal" },
-  { label: "Terms of Service", to: "/terms" },
-  { label: "Privacy Policy", to: "/privacy" },
-  { label: "E-Sign Notice", to: "/esign" },
+];
+
+const socialLinks = [
+  { label: "Twitter", icon: Twitter, href: "https://twitter.com/" },
+  { label: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/" },
+  { label: "Telegram", icon: Send, href: "https://t.me/" },
 ];
 
 const Footer = () => {
   return (
     <footer className="py-16 bg-background border-t border-border">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
@@ -23,17 +28,43 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Legal */}
+          {/* Company */}
           <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
+            <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-3">
-              {legalLinks.map((link) => (
+              {companyLinks.map((link) => (
                 <li key={link.label}>
-                  <Link to={link.to} className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link
+                    to={link.to}
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     {link.label}
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-semibold mb-4">Contact</h4>
+            <ul className="space-y-3">
+              {socialLinks.map((link) => {
+                const Icon = link.icon;
+                return (
+                  <li key={link.label}>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      <Icon className="h-4 w-4" />
+                      {link.label}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

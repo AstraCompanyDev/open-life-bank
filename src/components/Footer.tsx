@@ -9,7 +9,7 @@ const companyLinks = [
 
 const socialLinks = [
   { label: "Twitter", icon: Twitter, href: "https://twitter.com/" },
-  { label: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/" },
+  { label: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/company/u-topia/" },
   { label: "Telegram", icon: Send, href: "https://t.me/" },
 ];
 

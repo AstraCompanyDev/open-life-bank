@@ -108,10 +108,10 @@ const GetUPay = () => {
           <div className="text-center mb-12 animate-fade-up">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Be one of the first{" "}
-              <span className="gradient-text">to get a uPay card</span>
+              <span className="gradient-text">to get a U-topia card</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto">
-              Sign-up today to get pre-approved for your own customizable uPay card. Taking back control of your money and financial future is coming soon!
+              Sign-up today to get pre-approved for your own customizable U-topia card. Taking back control of your money and financial future is coming soon!
             </p>
           </div>
 

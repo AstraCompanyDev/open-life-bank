@@ -4,8 +4,6 @@ import CardShowcase from "@/components/CardShowcase";
 import AccountsSection from "@/components/AccountsSection";
 import TeamSection from "@/components/TeamSection";
 import GlobalBankingSection from "@/components/GlobalBankingSection";
-import FeaturesSection from "@/components/FeaturesSection";
-import LifestyleSection from "@/components/LifestyleSection";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -19,8 +17,6 @@ const About = () => {
       <AccountsSection />
       <TeamSection />
       <GlobalBankingSection />
-      <FeaturesSection />
-      <LifestyleSection />
       <Footer />
       <ScrollToTop />
     </main>

@@ -18,7 +18,7 @@ const About = () => {
       <CardShowcase />
       <AccountsSection />
       <TeamSection />
-      <GlobalBankingSection showMap />
+      <GlobalBankingSection />
       <FeaturesSection />
       <LifestyleSection />
       <Footer />

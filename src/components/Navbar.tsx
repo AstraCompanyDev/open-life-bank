@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-2 z-50 left-10 right-10 sm:left-16 sm:right-16 lg:left-24 lg:right-24 xl:left-32 xl:right-32 transition-all duration-300 rounded-2xl ${
+      className={`fixed top-2 z-50 left-2 right-2 transition-all duration-300 rounded-2xl ${
         navbarSolid ? "bg-background/90 backdrop-blur-md shadow-lg" : ""
       }`}
     >

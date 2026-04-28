@@ -27,7 +27,7 @@ const Navbar = () => {
         navbarSolid ? "bg-background/90 backdrop-blur-md shadow-lg" : ""
       }`}
     >
-      <div className="mx-auto px-5 sm:px-6">
+      <div className="mx-auto px-6 sm:px-10 lg:px-16">
         <div className="flex items-center h-24">
           {/* Logo (left) */}
           <div className="hidden md:flex items-center">

@@ -23,6 +23,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ESign from "./pages/ESign";
 import Legal from "./pages/Legal";
 import ProhibitedActivities from "./pages/ProhibitedActivities";
+import PrivacyNotice from "./pages/PrivacyNotice";
 import ScrollToTopOnNavigate from "./components/ScrollToTopOnNavigate";
 
 const queryClient = new QueryClient();
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/esign" element={<ESign />} />
             <Route path="/prohibited-activities" element={<ProhibitedActivities />} />
+            <Route path="/privacy-notice" element={<PrivacyNotice />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft, FileText, Shield, PenLine, Ban, ArrowRight } from "lucide-react";
+import { ArrowLeft, FileText, Shield, PenLine, Ban, Lock, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -27,6 +27,12 @@ const documents = [
     title: "Prohibited and Restricted Activities Policy",
     description: "Activities that are prohibited or restricted when using the U-topia Card.",
     to: "/prohibited-activities",
+  },
+  {
+    icon: Lock,
+    title: "Privacy Notice",
+    description: "How the Issuer collects, shares, and protects your personal information.",
+    to: "/privacy-notice",
   },
 ];
 

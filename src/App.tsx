@@ -25,6 +25,7 @@ import Legal from "./pages/Legal";
 import ProhibitedActivities from "./pages/ProhibitedActivities";
 import PrivacyNotice from "./pages/PrivacyNotice";
 import TermsInternational from "./pages/TermsInternational";
+import TermsUS from "./pages/TermsUS";
 import ScrollToTopOnNavigate from "./components/ScrollToTopOnNavigate";
 
 const queryClient = new QueryClient();
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="/legal" element={<Legal />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/terms-of-service/international" element={<TermsInternational />} />
+            <Route path="/terms-of-service/us" element={<TermsUS />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/esign" element={<ESign />} />
             <Route path="/prohibited-activities" element={<ProhibitedActivities />} />

@@ -8,13 +8,13 @@ const documents = [
     icon: FileText,
     title: "Terms of Service",
     description: "The terms governing your use of U-topia services.",
-    to: "/terms",
+    to: "/terms-of-service",
   },
   {
     icon: Shield,
     title: "Privacy Policy",
     description: "How we collect, use, and protect your personal information.",
-    to: "/privacy",
+    to: "/privacy-policy",
   },
   {
     icon: PenLine,

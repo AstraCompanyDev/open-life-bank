@@ -145,7 +145,7 @@ const TermsOfService = () => {
             <section>
               <h2 className="text-xl font-semibold mb-5 text-foreground">9. Data and Privacy</h2>
               <p className="text-base leading-relaxed text-muted-foreground mb-6">
-                Your use of the Services is also governed by our <Link to="/privacy" className="text-primary hover:underline">Privacy Policy</Link>. By using our platform, you consent to:
+                Your use of the Services is also governed by our <Link to="/privacy-policy" className="text-primary hover:underline">Privacy Policy</Link>. By using our platform, you consent to:
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3"><span className="text-primary mt-1.5">•</span><span>Data collection and processing</span></li>

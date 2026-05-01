@@ -5,6 +5,12 @@ const FadeInSection = ({ children, className = "" }: { children: ReactNode; clas
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    // Fallback: if IntersectionObserver isn't supported, show immediately
+    if (typeof IntersectionObserver === "undefined") {
+      setIsVisible(true);
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -12,18 +18,25 @@ const FadeInSection = ({ children, className = "" }: { children: ReactNode; clas
           observer.disconnect();
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0, rootMargin: "0px 0px -10% 0px" }
     );
 
     if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
+
+    // Safety fallback: reveal after 1s in case observer never fires
+    const timeout = setTimeout(() => setIsVisible(true), 1000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(timeout);
+    };
   }, []);
 
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+      className={`transition-opacity duration-700 ease-out ${
+        isVisible ? "opacity-100" : "opacity-0"
       } ${className}`}
     >
       {children}

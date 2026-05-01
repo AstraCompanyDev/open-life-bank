@@ -12,7 +12,7 @@ const HeroSection = () => {
           style={{
             backgroundImage: `url(${heroMobileMockup})`,
             backgroundSize: "cover",
-            backgroundPosition: "center top",
+            backgroundPosition: "center center",
           }}
         >
           {/* Dark overlay for readability */}

@@ -22,19 +22,19 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-2 z-50 left-2 right-2 transition-all duration-300 rounded-2xl ${
-        navbarSolid ? "bg-background/90 backdrop-blur-md shadow-lg" : ""
+      className={`fixed top-2 z-50 left-2 right-2 transition-all duration-300 rounded-xl md:rounded-2xl ${
+        navbarSolid ? "bg-background/95 backdrop-blur-md shadow-lg" : ""
       }`}
     >
-      <div className="mx-auto px-6 sm:px-10 lg:px-16">
-        <div className="flex items-center h-24">
+      <div className="mx-auto px-5 sm:px-8 lg:px-16">
+        <div className="flex items-center h-16 md:h-24">
           {/* Logo (left) */}
           <div className="hidden md:flex items-center">
             <Link to="/" className="flex items-center gap-2">
               <img
                 src={logoUtopia}
                 alt="U-topia"
-                className={`h-7 w-auto transition-all duration-300 ${
+                className={`h-6 md:h-7 w-auto transition-all duration-300 ${
                   navbarSolid ? "brightness-0" : "brightness-0 invert"
                 }`}
               />
@@ -46,7 +46,7 @@ const Navbar = () => {
             <img
               src={logoUtopia}
               alt="U-topia"
-              className={`h-7 w-auto transition-all duration-300 ${
+              className={`h-6 w-auto transition-all duration-300 ${
                 navbarSolid ? "brightness-0" : "brightness-0 invert"
               }`}
             />
@@ -97,7 +97,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden py-6 border-t border-border animate-fade-in">
+          <div className="md:hidden py-5 border-t border-border animate-fade-in">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link

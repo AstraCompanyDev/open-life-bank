@@ -26,7 +26,9 @@ const HeroSection = () => {
               </h1>
 
               <p className="text-base sm:text-xl text-white/80 max-w-lg leading-relaxed">
-                Reimagining money so you can spend, save, earn, and invest your way. The best of Web2 & Web3 — putting YOU first.
+                Changing how global finance is used every day.
+                <br />
+                Simple. Yours. Ready When You Are.
               </p>
 
               <div className="pt-2 md:pt-4">

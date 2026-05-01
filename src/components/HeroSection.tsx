@@ -18,7 +18,7 @@ const HeroSection = () => {
           {/* Dark overlay for readability */}
           <div className="absolute inset-0 bg-black/40" />
 
-          <div className="relative z-10 w-full px-8 md:px-16 py-14">
+          <div className="relative z-10 w-full px-6 sm:px-10 md:px-16 py-10 md:py-14">
             <div className="max-w-2xl space-y-6">
               <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight text-white">
                 A <span className="whitespace-nowrap">U-topia</span>{" "}

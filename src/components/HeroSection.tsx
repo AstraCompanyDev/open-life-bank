@@ -8,11 +8,9 @@ const HeroSection = () => {
     <section className="relative pt-20 md:pt-28 pb-8 md:pb-12 bg-background">
       <div className="mx-auto px-2 sm:px-6 lg:px-8 max-w-none sm:container">
         <div
-          className="relative overflow-hidden rounded-xl sm:rounded-2xl md:rounded-3xl min-h-[calc(100svh-8rem)] sm:min-h-[620px] md:h-[80vh] md:min-h-[500px] max-h-[800px] flex items-end"
+          className="relative overflow-hidden rounded-xl sm:rounded-2xl md:rounded-3xl min-h-[calc(100svh-8rem)] sm:min-h-[620px] md:h-[80vh] md:min-h-[500px] max-h-[800px] flex items-end bg-no-repeat bg-cover [background-position:78%_center] md:[background-position:center_center]"
           style={{
             backgroundImage: `url(${heroMobileMockup})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center center",
           }}
         >
           {/* Dark overlay for readability */}

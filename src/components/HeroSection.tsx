@@ -5,10 +5,10 @@ import heroMobileMockup from "@/assets/hero-mobile-mockup.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative pt-0 pb-0 bg-background">
-      <div className="w-full">
+    <section className="relative pt-24 md:pt-28 pb-8 md:pb-12 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div
-          className="relative overflow-hidden h-screen flex items-end"
+          className="relative overflow-hidden rounded-2xl md:rounded-3xl h-[80vh] min-h-[500px] max-h-[800px] flex items-end"
           style={{
             backgroundImage: `url(${heroMobileMockup})`,
             backgroundSize: "cover",

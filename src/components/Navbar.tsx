@@ -18,8 +18,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const isHomePage = location.pathname === "/";
-  const navbarSolid = !isHomePage || scrolled || isOpen;
+  const navbarSolid = true;
 
   return (
     <nav

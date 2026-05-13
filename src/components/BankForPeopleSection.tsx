@@ -27,13 +27,13 @@ const BankForPeopleSection = () => {
                 Our Mission
               </span>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-[1.1] tracking-tight text-foreground">
-                A bank built{" "}
+                Built{" "}
                 <span className="gradient-text">for the people</span>
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                U-topia puts YOU at the centre of everything. No hidden fees, no gatekeepers — just
-                seamless access to spending, saving, earning, and investing across traditional and
-                digital finance.
+                U-topia puts YOU at the centre of everything. Transparent fees, no surprises, no
+                gatekeepers — just seamless access to spending, saving, earning, and investing
+                across digital and traditional finance.
               </p>
               <div className="flex gap-4 pt-2">
                 <Link to="/open-account">

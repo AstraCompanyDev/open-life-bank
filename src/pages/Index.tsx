@@ -23,9 +23,6 @@ const Index = () => {
         <CardTypesSection />
       </FadeInSection>
       <FadeInSection>
-        <GlobalBankingSection />
-      </FadeInSection>
-      <FadeInSection>
         <TeamSection />
       </FadeInSection>
       <FadeInSection>

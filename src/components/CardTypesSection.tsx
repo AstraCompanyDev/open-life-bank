@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { CreditCard, Gift, TrendingUp, Wallet, ArrowRight } from "lucide-react";
-import upayImg from "@/assets/card-upay-checkout.png";
-import ucardImg from "@/assets/card-uearn-premium.png";
-import uearnImg from "@/assets/uearn-rewards.jpg";
-import globalImg from "@/assets/global-banking-card.png";
+import upayImg from "@/assets/cardtype-upay.jpg";
+import ucardImg from "@/assets/cardtype-ucard.jpg";
+import uearnImg from "@/assets/cardtype-uearn.jpg";
+import globalImg from "@/assets/cardtype-global.jpg";
 
 const cardTypes = [
   {

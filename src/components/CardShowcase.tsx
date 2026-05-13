@@ -37,7 +37,7 @@ const CardShowcase = () => {
                 <span className="gradient-text">does more</span>
               </h2>
               <p className="text-xl text-muted-foreground">
-                Get a beautiful card that works everywhere. Virtual cards instantly, physical cards delivered to your door.
+                Get a beautiful card accepted wherever Visa is accepted. Virtual cards instantly, physical cards delivered to your door.
               </p>
             </div>
 

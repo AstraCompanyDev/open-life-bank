@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Coins, Headphones, Gift, PiggyBank, Landmark } from "lucide-react";
+import { ArrowRight, Coins, Headphones, ShieldCheck, PiggyBank, Landmark } from "lucide-react";
 import lifestyleImage from "@/assets/lifestyle-travel.jpg";
 
 const features = [
   { icon: Coins, text: "Multiple currency support" },
   { icon: Headphones, text: "24/7 multi-language support" },
-  { icon: Gift, text: "Exclusive rewards & perks" },
+  { icon: ShieldCheck, text: "Bank-grade security" },
 ];
 
 

@@ -5,8 +5,8 @@ import upayCards from "@/assets/utopia-cards-trio.png";
 
 const cardFeatures = [
   "Free virtual card instantly",
-  "Physical card delivered free",
-  "Contactless payments worldwide",
+ "Physical card available",
+ "Contactless payments at Visa merchants worldwide",
   "Instant freeze & unfreeze",
   "Real-time spending notifications",
   "Custom spending limits",

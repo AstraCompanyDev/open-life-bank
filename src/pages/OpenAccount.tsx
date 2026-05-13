@@ -125,7 +125,7 @@ const OpenAccount = () => {
           <div className="text-center mb-12 animate-fade-up">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Be the First to hear about{" "}
-              <span className="gradient-text">U-Topia</span>
+              <span className="gradient-text">U-topia</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto">
               Join the waitlist for early access to seamless crypto management — all in one app.

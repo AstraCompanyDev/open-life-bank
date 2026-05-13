@@ -24,7 +24,7 @@ const Footer = () => {
               <img src={utopiaLogo} alt="U-topia" className="h-10 w-auto brightness-0" />
             </Link>
             <p className="text-muted-foreground mb-6 max-w-xs">
-              U-topia is built around you — bringing together modern banking, digital assets, and cross-chain access into one seamless, all-in-one wallet.
+              U-topia is built around you — bringing together digital assets, payments, and cross-chain access into one seamless, all-in-one wallet.
             </p>
           </div>
 

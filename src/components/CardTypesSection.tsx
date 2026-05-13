@@ -56,10 +56,10 @@ const CardTypesSection = () => {
             <span className="gradient-text">U-topia</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">
-            U-topia brings a new standard to digital finance with a fully integrated banking ecosystem.
+            U-topia brings a new standard to digital finance with a fully integrated payments ecosystem.
           </p>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            A decentralized crypto banking platform combining global payments, yield opportunities, and non-custodial control — delivering everything you expect from modern finance, redesigned for Web3.
+            A decentralized crypto payments platform combining global payments, yield opportunities, and non-custodial control, delivering everything you expect from modern finance, redesigned for Web3.
           </p>
         </div>
 

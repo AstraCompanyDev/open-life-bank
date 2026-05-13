@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-import GetUPay from "./pages/GetUPay";
+
 import InvestorContact from "./pages/InvestorContact";
 import OpenAccount from "./pages/OpenAccount";
 import Blog from "./pages/Blog";
@@ -44,7 +44,7 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             
             <Route path="/about" element={<About />} />
-            <Route path="/get-upay" element={<GetUPay />} />
+            
             <Route path="/investor-contact" element={<InvestorContact />} />
             <Route path="/open-account" element={<OpenAccount />} />
             

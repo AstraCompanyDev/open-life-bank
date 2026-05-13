@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Check } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Check } from "lucide-react";
 import upayCards from "@/assets/utopia-cards-trio.png";
 
 const cardFeatures = [
@@ -52,12 +50,6 @@ const CardShowcase = () => {
               ))}
             </div>
 
-            <Link to="/get-upay" className="inline-block mt-4">
-              <Button variant="hero" size="lg">
-                Get Your Card
-                <ArrowRight className="ml-2" />
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

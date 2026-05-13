@@ -1,14 +1,12 @@
 import atsGroup from "@/assets/partners/ats-group.png";
 import fireblocks from "@/assets/partners/fireblocks.png";
 import theBlock from "@/assets/partners/the-block-new.png";
-import visa from "@/assets/partners/visa.png";
 import yellowCapital from "@/assets/partners/yellow-capital.png";
 
 const partners = [
   { name: "ATS Group", logo: atsGroup },
   { name: "Fireblocks", logo: fireblocks },
   { name: "The Block", logo: theBlock },
-  { name: "Visa", logo: visa },
   { name: "Yellow Capital", logo: yellowCapital },
 ];
 

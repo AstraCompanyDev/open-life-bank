@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import PartnersSection from "@/components/PartnersSection";
 import CardTypesSection from "@/components/CardTypesSection";
 import BankForPeopleSection from "@/components/BankForPeopleSection";
-import GlobalBankingSection from "@/components/GlobalBankingSection";
+
 import AccountsSection from "@/components/AccountsSection";
 import TeamSection from "@/components/TeamSection";
 import CTASection from "@/components/CTASection";

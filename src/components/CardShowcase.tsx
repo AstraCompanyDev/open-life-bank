@@ -52,12 +52,6 @@ const CardShowcase = () => {
               ))}
             </div>
 
-            <Link to="/get-upay" className="inline-block mt-4">
-              <Button variant="hero" size="lg">
-                Get Your Card
-                <ArrowRight className="ml-2" />
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

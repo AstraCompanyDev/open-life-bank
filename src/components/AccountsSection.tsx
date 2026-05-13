@@ -6,7 +6,7 @@ import lifestyleImage from "@/assets/lifestyle-travel.jpg";
 const features = [
   { icon: Coins, text: "Multiple currency support" },
   { icon: Headphones, text: "24/7 multi-language support" },
-  { icon: CreditCard, text: "Accepted everywhere VISA is" },
+  { icon: CreditCard, text: "Spend anywhere VISA is accepted" },
 ];
 
 

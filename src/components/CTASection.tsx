@@ -24,7 +24,7 @@ const CTASection = () => {
                 Your future in finance starts here
               </h2>
               <p className="text-sm md:text-base text-white/70 max-w-lg leading-relaxed">
-                Join thousands already banking smarter. Take control of your money, earn rewards, and experience what modern finance should feel like.
+                Join thousands already spending smarter. Take control of your money, earn rewards, and experience what modern finance should feel like.
               </p>
             </div>
 

@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Check } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Check } from "lucide-react";
 import upayCards from "@/assets/utopia-cards-trio.png";
 
 const cardFeatures = [

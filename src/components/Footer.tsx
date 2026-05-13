@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Twitter, Linkedin, Send } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const companyLinks = [
@@ -8,9 +8,7 @@ const companyLinks = [
 ];
 
 const socialLinks = [
-  { label: "Twitter", icon: Twitter, href: "https://twitter.com/" },
   { label: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/company/u-topia/" },
-  { label: "Telegram", icon: Send, href: "https://t.me/" },
 ];
 
 const Footer = () => {

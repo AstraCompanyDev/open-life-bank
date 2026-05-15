@@ -184,46 +184,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
             )}
           </div>
 
-          {/* Footer */}
-          <footer className="border-t border-border mt-12 px-6 lg:px-12 py-12">
-            <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
-              <div>
-                <div className="font-semibold mb-3">U-Topia</div>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li><a href="https://www.u-topia.com/about" className="hover:text-foreground">About</a></li>
-                  <li><a href="https://www.u-topia.com" className="hover:text-foreground">Community</a></li>
-                  <li><a href="https://www.u-topia.com" className="hover:text-foreground">App →</a></li>
-                </ul>
-              </div>
-              <div>
-                <div className="font-semibold mb-3">Resources</div>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li><Link to="/docs" className="hover:text-foreground">Whitepaper</Link></li>
-                  <li><Link to="/docs/roadmap-may-june" className="hover:text-foreground">Roadmap</Link></li>
-                  <li><a href="https://www.u-topia.com" className="hover:text-foreground">Brand Assets</a></li>
-                </ul>
-              </div>
-              <div>
-                <div className="font-semibold mb-3">Legal</div>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li><Link to="/terms-of-service" className="hover:text-foreground">Terms</Link></li>
-                  <li><Link to="/privacy-policy" className="hover:text-foreground">Privacy</Link></li>
-                  <li><Link to="/docs/risk-disclosures" className="hover:text-foreground">Risk Disclosures</Link></li>
-                </ul>
-              </div>
-              <div>
-                <div className="font-semibold mb-3">Social</div>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li><a href="https://x.com" className="hover:text-foreground">X</a></li>
-                  <li><a href="https://t.me" className="hover:text-foreground">Telegram</a></li>
-                  <li><a href="https://discord.com" className="hover:text-foreground">Discord</a></li>
-                </ul>
-              </div>
-            </div>
-            <div className="max-w-6xl mx-auto mt-10 pt-6 border-t border-border text-xs text-muted-foreground">
-              © 2026 U-Topia. Alpha documentation. Not financial advice.
-            </div>
-          </footer>
+          <Footer />
         </main>
       </div>
 

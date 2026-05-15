@@ -20,10 +20,10 @@ export default function DocsHome() {
           Web3 wallet ownership and Visa-linked financial access in one app. Product and strategy documentation for the U-Topia Alpha.
         </p>
         <div className="flex flex-wrap gap-3 mb-16">
-          <Link to="/docs/what-is-utopia" className="inline-flex items-center gap-2 h-11 px-5 rounded-full bg-accent text-accent-foreground font-semibold text-sm hover:opacity-90">
+          <Link to="/docs/what-is-utopia" className="inline-flex items-center gap-2 h-12 px-7 rounded-full bg-primary text-primary-foreground font-semibold text-base tracking-tight shadow-sm hover:opacity-90 hover:scale-[1.02] active:scale-100 transition-all">
             Get Started <ArrowRight className="h-4 w-4" />
           </Link>
-          <Link to="/docs/roadmap-may-june" className="inline-flex items-center gap-2 h-11 px-5 rounded-full border border-border font-semibold text-sm hover:bg-secondary">
+          <Link to="/docs/roadmap-may-june" className="inline-flex items-center gap-2 h-12 px-7 rounded-full border border-border bg-background text-foreground font-semibold text-base tracking-tight hover:bg-secondary hover:border-primary/50 transition-all">
             View Roadmap
           </Link>
         </div>

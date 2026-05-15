@@ -27,6 +27,8 @@ import PrivacyNotice from "./pages/PrivacyNotice";
 import TermsInternational from "./pages/TermsInternational";
 import TermsUS from "./pages/TermsUS";
 import ScrollToTopOnNavigate from "./components/ScrollToTopOnNavigate";
+import DocsHome from "./pages/DocsHome";
+import DocsPage from "./pages/DocsPage";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +42,8 @@ const App = () => (
           <ScrollToTopOnNavigate />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/docs" element={<DocsHome />} />
+            <Route path="/docs/:slug" element={<DocsPage />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
             <Route path="/contact" element={<Contact />} />
             

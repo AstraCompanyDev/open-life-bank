@@ -28,7 +28,7 @@ const cardTypes = [
     icon: Gift,
     image: uearnImg,
     description:
-      "Spend, save, and earn rewards on the everyday essentials, designed to fit seamlessly into your routine.",
+      "Spend and save on the everyday essentials, designed to fit seamlessly into your routine.",
   },
   {
     id: "global",

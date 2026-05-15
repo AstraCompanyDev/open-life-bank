@@ -23,12 +23,12 @@ const cardTypes = [
       "The physical and virtual Visa card.",
   },
   {
-    id: "uearn",
-    label: "U-Earn",
+    id: "daily-life",
+    label: "Cards for your Daily Life",
     icon: Gift,
     image: uearnImg,
     description:
-      "Loyalty and rewards transformed into tokenised value.",
+      "Spend, save, and earn rewards on the everyday essentials, designed to fit seamlessly into your routine.",
   },
   {
     id: "global",

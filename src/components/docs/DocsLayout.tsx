@@ -6,6 +6,7 @@ import { docsStructure, flatPages } from "@/docs/structure";
 import { docsContent } from "@/docs/content";
 import { cn } from "@/lib/utils";
 import utopiaLogo from "@/assets/logo-utopia.avif";
+import Footer from "@/components/Footer";
 
 interface Props {
   children: React.ReactNode;

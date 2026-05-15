@@ -42,6 +42,8 @@ const App = () => (
           <ScrollToTopOnNavigate />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/docs" element={<DocsHome />} />
+            <Route path="/docs/:slug" element={<DocsPage />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
             <Route path="/contact" element={<Contact />} />
             

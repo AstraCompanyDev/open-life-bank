@@ -3,12 +3,12 @@ import DocsLayout from "@/components/docs/DocsLayout";
 import { Wallet, CreditCard, Coins, Globe, ShieldCheck, Map, ArrowRight } from "lucide-react";
 
 const cards = [
-  { icon: Wallet, title: "Web3 Wallet", desc: "Non-custodial design, user-controlled credentials, recovery models.", to: "/docs/non-custodial-meaning" },
-  { icon: CreditCard, title: "Visa-Linked Access", desc: "Account and payment credentials via regulated partners.", to: "/docs/visa-linked-meaning" },
-  { icon: Coins, title: "Fiat & Crypto", desc: "One experience for everyday spending and digital assets.", to: "/docs/fiat-features" },
-  { icon: Globe, title: "Global Access", desc: "Eligibility, supported jurisdictions, financial inclusion.", to: "/docs/global-direction" },
-  { icon: ShieldCheck, title: "Security & Compliance", desc: "KYC, AML, fraud monitoring, and risk controls.", to: "/docs/security-principles" },
-  { icon: Map, title: "Roadmap", desc: "From May stabilization to October global launch.", to: "/docs/roadmap-may-june" },
+  { icon: Wallet, title: "Web3 Wallet", desc: "Non-custodial design, user-controlled credentials, recovery models.", to: "/utspecs/non-custodial-meaning" },
+  { icon: CreditCard, title: "Visa-Linked Access", desc: "Account and payment credentials via regulated partners.", to: "/utspecs/visa-linked-meaning" },
+  { icon: Coins, title: "Fiat & Crypto", desc: "One experience for everyday spending and digital assets.", to: "/utspecs/fiat-features" },
+  { icon: Globe, title: "Global Access", desc: "Eligibility, supported jurisdictions, financial inclusion.", to: "/utspecs/global-direction" },
+  { icon: ShieldCheck, title: "Security & Compliance", desc: "KYC, AML, fraud monitoring, and risk controls.", to: "/utspecs/security-principles" },
+  { icon: Map, title: "Roadmap", desc: "From May stabilization to October global launch.", to: "/utspecs/roadmap-may-june" },
 ];
 
 export default function DocsHome() {
@@ -20,10 +20,10 @@ export default function DocsHome() {
           Web3 wallet ownership and Visa-linked financial access in one app. Product and strategy documentation for the U-Topia Alpha.
         </p>
         <div className="flex flex-wrap gap-3 mb-16">
-          <Link to="/docs/what-is-utopia" className="inline-flex items-center gap-2 h-12 px-7 rounded-full bg-accent text-accent-foreground font-semibold text-base tracking-tight shadow-sm hover:opacity-90 hover:scale-[1.02] active:scale-100 transition-all">
+          <Link to="/utspecs/what-is-utopia" className="inline-flex items-center gap-2 h-12 px-7 rounded-full bg-accent text-accent-foreground font-semibold text-base tracking-tight shadow-sm hover:opacity-90 hover:scale-[1.02] active:scale-100 transition-all">
             Get Started <ArrowRight className="h-4 w-4" />
           </Link>
-          <Link to="/docs/roadmap-may-june" className="inline-flex items-center gap-2 h-12 px-7 rounded-full border border-border bg-background text-foreground font-semibold text-base tracking-tight hover:bg-secondary hover:border-primary/50 transition-all">
+          <Link to="/utspecs/roadmap-may-june" className="inline-flex items-center gap-2 h-12 px-7 rounded-full border border-border bg-background text-foreground font-semibold text-base tracking-tight hover:bg-secondary hover:border-primary/50 transition-all">
             View Roadmap
           </Link>
         </div>

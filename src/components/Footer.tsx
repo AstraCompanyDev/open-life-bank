@@ -4,7 +4,7 @@ import utopiaLogo from "@/assets/logo-utopia.avif";
 
 const companyLinks = [
   { label: "About Us", to: "/about" },
-  { label: "Docs", to: "/docs" },
+  { label: "Docs", to: "/utspecs" },
   { label: "Legal", to: "/legal" },
 ];
 

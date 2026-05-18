@@ -63,7 +63,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
           <button className="md:hidden" onClick={() => setMobileOpen(true)} aria-label="Open menu">
             <Menu className="h-5 w-5" />
           </button>
-          <Link to="/docs" className="flex items-center gap-2 shrink-0">
+          <Link to="/utspecs" className="flex items-center gap-2 shrink-0">
             <img src={utopiaLogo} alt="U-topia" className="h-6 w-auto" />
             <span className="text-sm font-semibold tracking-tight hidden sm:inline">Docs</span>
           </Link>
@@ -80,7 +80,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
           <nav className="hidden md:flex items-center gap-5 text-sm">
             <a href="https://www.u-topia.com" className="text-muted-foreground hover:text-foreground">u-topia.com</a>
             <a href="https://www.u-topia.com/contact" className="text-muted-foreground hover:text-foreground">Contact</a>
-            <Link to="/docs/roadmap-may-june" className="text-muted-foreground hover:text-foreground">Roadmap</Link>
+            <Link to="/utspecs/roadmap-may-june" className="text-muted-foreground hover:text-foreground">Roadmap</Link>
           </nav>
         </div>
       </header>
@@ -106,7 +106,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
                   {section.pages.map((page) => (
                     <li key={page.slug}>
                       <NavLink
-                        to={`/docs/${page.slug}`}
+                        to={`/utspecs/${page.slug}`}
                         className={({ isActive }) =>
                           cn(
                             "block px-2 py-1.5 text-sm rounded-md transition-colors border-l-2",
@@ -136,7 +136,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
             <div className="flex-1 min-w-0 px-6 lg:px-12 py-8 max-w-[860px] mx-auto w-full">
               {sectionTitle && pageTitle && (
                 <nav className="text-xs text-muted-foreground mb-4 flex items-center gap-1.5">
-                  <Link to="/docs" className="hover:text-foreground">Docs</Link>
+                  <Link to="/utspecs" className="hover:text-foreground">Docs</Link>
                   <ChevronRight className="h-3 w-3" />
                   <span>{sectionTitle}</span>
                   <ChevronRight className="h-3 w-3" />
@@ -150,7 +150,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
                 <div className="grid grid-cols-2 gap-4 mt-16 pt-8 border-t border-border">
                   <div>
                     {prev && (
-                      <Link to={`/docs/${prev.slug}`} className="block p-4 rounded-xl border border-border hover:border-accent transition-colors">
+                      <Link to={`/utspecs/${prev.slug}`} className="block p-4 rounded-xl border border-border hover:border-accent transition-colors">
                         <div className="text-xs text-muted-foreground">← Previous</div>
                         <div className="text-sm font-medium mt-1">{prev.title}</div>
                       </Link>
@@ -158,7 +158,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
                   </div>
                   <div>
                     {next && (
-                      <Link to={`/docs/${next.slug}`} className="block p-4 rounded-xl border border-border hover:border-accent transition-colors text-right">
+                      <Link to={`/utspecs/${next.slug}`} className="block p-4 rounded-xl border border-border hover:border-accent transition-colors text-right">
                         <div className="text-xs text-muted-foreground">Next →</div>
                         <div className="text-sm font-medium mt-1">{next.title}</div>
                       </Link>
@@ -211,7 +211,7 @@ export default function DocsLayout({ children, toc, sectionTitle, pageTitle }: P
               {results.map((r) => (
                 <button
                   key={r.item.slug}
-                  onClick={() => { navigate(`/docs/${r.item.slug}`); setSearchOpen(false); setQuery(""); }}
+                  onClick={() => { navigate(`/utspecs/${r.item.slug}`); setSearchOpen(false); setQuery(""); }}
                   className="w-full text-left p-3 hover:bg-secondary border-b border-border last:border-0"
                 >
                   <div className="text-xs text-muted-foreground">{r.item.section}</div>

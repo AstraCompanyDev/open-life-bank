@@ -96,7 +96,7 @@ export default function DocsPage() {
 
   useEffect(() => { window.scrollTo(0, 0); }, [slug]);
 
-  if (!page || !blocks) return <Navigate to="/docs" replace />;
+  if (!page || !blocks) return <Navigate to="/utspecs" replace />;
 
   const section = docsStructure.find((s) => s.pages.some((p) => p.slug === slug));
   const toc = blocks

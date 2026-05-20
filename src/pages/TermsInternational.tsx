@@ -47,7 +47,7 @@ const TermsInternational = () => {
             </section>
 
             <Section title="Important Disclosures">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 Please review the arbitration clause and notices set forth below in Section 16. By using the Card, you are agreeing to the arbitration clause and notices set forth in that section. The arbitration clause will have a substantial effect on your rights in the event of a dispute, including your right to bring or participate in a class proceeding.
               </p>
               <p>
@@ -72,7 +72,7 @@ const TermsInternational = () => {
                 <Bullet>Late payment: Up to $40</Bullet>
                 <Bullet>Returned payment: Up to $35</Bullet>
               </ul>
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 When you apply for a Card account, activate a Card, or otherwise participate in the program in any way, you represent that you have read, understand, and agree to these Card Terms.
               </p>
             </Section>
@@ -342,7 +342,7 @@ const TermsInternational = () => {
             </Section>
 
             <Section title="16. Dispute Resolution & Arbitration">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 Please read this "Dispute Resolution and Arbitration" provision very carefully. It limits your rights in the event of a dispute between you and Issuer. U-TOPIA is the technology provider for the Card but is not the Issuer, creditor or lender. U-TOPIA is not a party to these Card Terms and has no liability for the Issuer's obligations under it. However, U-TOPIA is an express third-party beneficiary of these Card Terms with respect to any provisions that allocate risk, disclaim liability, limit remedies or require disputes to be resolved through arbitration. Accordingly, to the extent a dispute involves U-TOPIA, U-TOPIA shall be entitled to invoke and benefit from the same protections, limitations and dispute resolution procedures as the Issuer. To the extent you have any dispute you may have with U-TOPIA relating solely to services provided to you under your separate User Terms with U-TOPIA, such disputes will be governed exclusively in accordance with the U-TOPIA User Terms.
               </p>
               <SubHeading>Binding Arbitration</SubHeading>
@@ -371,7 +371,7 @@ const TermsInternational = () => {
               <p>
                 (f) You and Issuer agree that, notwithstanding anything to the contrary in the Rules, the arbitration of any Dispute shall proceed on an individual basis, and neither you nor Issuer may bring a claim as a part of a class, group, collective, coordinated, consolidated or mass arbitration (each, a "<strong>Collective Arbitration</strong>"). Without limiting the generality of the foregoing, a claim to resolve any Dispute against Issuer will be deemed a Collective Arbitration if (i) two (2) or more similar claims for arbitration are filed concurrently by or on behalf of one or more claimants; and (ii) counsel for the claimants are the same, share fees or coordinate across the arbitrations. "Concurrently" for purposes of this provision means that both arbitrations are pending (filed but not yet resolved) at the same time.
               </p>
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 To the maximum extent permitted by applicable law, neither you nor Issuer shall be entitled to consolidate, join or coordinate Disputes by or against other individuals or entities, or arbitrate or litigate any Dispute in a representative capacity, including as a representative member of a class or in a private attorney general capacity. In connection with any Dispute, any and all such rights are hereby expressly and unconditionally waived. Without limiting the foregoing, any challenge to the validity of this paragraph shall be determined exclusively by the arbitrator.
               </p>
               <SubHeading>Small Claims</SubHeading>
@@ -430,16 +430,16 @@ const TermsInternational = () => {
             </Section>
 
             <Section title="22. Disclaimer of Warranties">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 To the maximum extent permitted by applicable law, we expressly disclaim all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, title, non-infringement, accuracy, reliability, and any warranties arising from course of dealing or usage of trade.
               </p>
             </Section>
 
             <Section title="23. Limitation of Liability">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 To the maximum extent permitted by applicable law, in no event shall Issuer, its affiliates, or its officers, directors, employees, agents, service providers, or licensors be liable to you for any indirect, incidental, consequential, special, exemplary, punitive, or other similar damages, including but not limited to lost profits, lost revenue, lost data, loss of goodwill, business interruption, or loss of business opportunity, whether arising in contract, tort, negligence, strict liability, or otherwise.
               </p>
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 In no event shall Issuer's total liability to you for all claims arising out of or relating to this agreement or your Account exceed the lesser of (a) your actual direct damages proven or (b) the total amounts paid by you in the twelve (12) months immediately preceding the event giving rise to the claim.
               </p>
             </Section>

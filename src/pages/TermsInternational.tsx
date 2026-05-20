@@ -33,16 +33,16 @@ const TermsInternational = () => {
           </Link>
 
           <p className="text-sm uppercase tracking-wider text-primary font-semibold mb-3">International Consumers</p>
-          <h1 className="text-3xl md:text-4xl font-semibold mb-3">U-TOPIA CORP. Spend Card Terms</h1>
+          <h1 className="text-3xl md:text-4xl font-semibold mb-3">U-TOPIA Spend Card Terms</h1>
           <p className="text-muted-foreground text-lg mb-2">
-            Region: International · Program Type: Business · Flow of Funds: Rain-Managed
+            Region: International · Program Type: Consumer · Flow of Funds: Rain-Managed
           </p>
-          <p className="text-muted-foreground mb-16">Effective as of: April 28, 2026</p>
+          <p className="text-muted-foreground mb-16">Effective as of: May 20, 2026</p>
 
           <div className="space-y-12 text-base leading-relaxed text-muted-foreground">
             <section>
               <p>
-                These U-TOPIA CORP. Spend Card Terms (the "<strong>Card Terms</strong>") are a binding agreement between you ("<strong>you</strong>" or "<strong>your</strong>") and the Issuer ("<strong>we</strong>", "<strong>us</strong>", or "<strong>our</strong>") that governs your use of the U-TOPIA CORP. Spend Cards, including the process for obtaining and managing U-TOPIA CORP. Spend Cards, access to which is provided to you by U-TOPIA CORP. ("<strong>U-topia</strong>").
+                These U-TOPIA Spend Card Terms (the "<strong>Card Terms</strong>") are a binding agreement between you ("<strong>you</strong>" or "<strong>your</strong>") and the Issuer ("<strong>we</strong>", "<strong>us</strong>", or "<strong>our</strong>") that governs your use of the U-TOPIA Spend Cards, including the process for obtaining and managing U-TOPIA Spend Cards, access to which is provided to you by U-TOPIA CORP. ("<strong>U-TOPIA</strong>").
               </p>
             </section>
 
@@ -51,21 +51,21 @@ const TermsInternational = () => {
                 Please review the arbitration clause and notices set forth below in Section 16. By using the Card, you are agreeing to the arbitration clause and notices set forth in that section. The arbitration clause will have a substantial effect on your rights in the event of a dispute, including your right to bring or participate in a class proceeding.
               </p>
               <p>
-                Rates, fees, and other important information about your U-TOPIA CORP. Spend Card ("<strong>Card</strong>" or "<strong>U-TOPIA CORP. Card</strong>") are set forth in these Important Disclosures.
+                Rates, fees, and other important information about your U-TOPIA Spend Card ("<strong>U-TOPIA Card</strong>" or "<strong>Card</strong>") are set forth in these Important Disclosures.
               </p>
-              <p>Effective as of 28/04/2026</p>
+              <p>Effective as of May 20, 2026</p>
 
               <SubHeading>Interest Rates and Interest Charges [0%]</SubHeading>
               <p><strong className="text-foreground">Annual Percentage Rate (APR) for Purchases [0%]</strong></p>
               <p>
-                <strong className="text-foreground">Your U-TOPIA CORP. Card is currently Zero [0]% interest on all purchases.</strong> Issuer and U-TOPIA CORP. reserve the right to implement interest in the future, for new purchases. U-TOPIA CORP. will disclose any changes to this agreement prior to the introduction of interest and other charges associated with your U-TOPIA CORP. Card.
+                Your U-TOPIA Spend Card is currently Zero [0]% interest on all purchases. Issuer and U-TOPIA reserve the right to implement interest in the future, for new purchases. U-TOPIA will disclose any changes to this agreement prior to the introduction of interest and other charges associated with your U-TOPIA Card.
               </p>
 
               <SubHeading>Fees</SubHeading>
               <p><strong className="text-foreground">Transaction Fee — Foreign Purchases</strong></p>
               <ul className="space-y-3">
-                <Bullet>Foreign Exchange Fee (non USD): up to 1.50%</Bullet>
-                <Bullet>Cross Border Fee: up to 1.50%</Bullet>
+                <Bullet>Foreign Exchange Fee (non USD): up to 1.5%</Bullet>
+                <Bullet>Cross Border Fee: up to 1.5%</Bullet>
               </ul>
               <p><strong className="text-foreground">Penalty Fees</strong></p>
               <ul className="space-y-3">
@@ -73,119 +73,115 @@ const TermsInternational = () => {
                 <Bullet>Returned payment: Up to $35</Bullet>
               </ul>
               <p className="uppercase text-sm tracking-wide">
-                When you apply for a Card account, activate a Card, or otherwise participate in the program in any way, you represent that you have read, understand, and agree to these issuing terms.
+                When you apply for a Card account, activate a Card, or otherwise participate in the program in any way, you represent that you have read, understand, and agree to these Card Terms.
               </p>
             </Section>
 
             <Section title="Background">
               <p>
-                The U-TOPIA CORP. Card is provided to you on behalf of U-TOPIA CORP. in connection with your status as a U-TOPIA CORP. customer. Your relationship with U-TOPIA CORP. in connection with platform access and related services ("<strong>Services</strong>") is governed solely by the U-TOPIA CORP. platform Terms of Service ("<strong>User Terms</strong>" or "<strong>U-TOPIA CORP. User Terms</strong>") which constitute a separate agreement between you and U-TOPIA CORP.. The Issuer is not a party to the U-TOPIA CORP. User Terms and disclaims any liability for the performance of services covered therein. In the event of a conflict between these Card Terms and your User Terms, these Card Terms will control.
+                The U-TOPIA Card is provided to you on behalf of U-TOPIA in connection with your status as a U-TOPIA customer and pursuant to your separate User Agreement between you and U-TOPIA (the "<strong>User Agreement</strong>"). The Issuer is not a party to the User Agreement and disclaims any liability for the performance of services covered therein.
               </p>
               <p>
-                U-TOPIA CORP. is providing access to a U-TOPIA CORP. Spend Account ("<strong>Account</strong>" or "<strong>U-TOPIA CORP. Account</strong>") for purposes of facilitating transactions you make using one or more Cards for transactions up to the applicable credit limit. You understand that you have access to the Services and U-TOPIA CORP. Card only to the extent authorized by U-TOPIA CORP.. You acknowledge and agree that U-TOPIA CORP. will satisfy obligations created through your use of the U-TOPIA CORP. Card and you will repay Partner based on the terms of your User Terms, subject to these Card Terms.
+                U-TOPIA has opened a U-TOPIA Account for purposes of facilitating transactions you make using a Card based on a limit established by U-TOPIA pursuant to the User Agreement. You understand that you have access to the Services and U-TOPIA Card only to the extent authorized by U-TOPIA. You acknowledge and agree that U-TOPIA will satisfy obligations created through your use of the U-TOPIA Card and you will repay U-TOPIA based on the terms of your User Agreement, subject to the terms below. In the event of a conflict between these Card Terms and your User Agreement, these Card Terms will control.
               </p>
               <p>
-                You understand that the U-TOPIA CORP. Card is not intended for personal, consumer, or household use and you agree you will only use the U-TOPIA CORP. Card for commercial or business purposes.
-              </p>
-              <p>
-                Details on U-TOPIA CORP.'s collection, use, and handling of your personal data are described in{" "}
+                Details on U-TOPIA's collection, use, and handling of your personal data are described in{" "}
                 <Link to="/privacy-policy" className="text-primary hover:underline">our Privacy Policy</Link>.
-                Please review it carefully and contact U-TOPIA CORP. if you have any questions. By opening, using, or maintaining a Card, you consent to and direct Issuer to share information relating to transactions, including receipt information or other personal data, in order to deliver the Services.
+                Please review it carefully and contact U-TOPIA if you have any questions. By opening, using, or maintaining a Card, you consent to and direct Issuer to share information relating to transactions, including receipt information or other personal data, in order to deliver the Services.
               </p>
             </Section>
 
             <Section title="Issuer">
               <p>
-                The card program is issued by the Issuer under license from Visa. The information about the cost of the Card described in the above table is accurate as of April 28, 2026. This information may change after that date. To find out what may have changed, call or write the servicer at{" "}
+                The card program is issued by the Issuer under license from Visa. The information about the cost of the Card described in the above table is accurate as of May 20, 2026. This information may change after that date. To find out what may have changed, call or write the servicer at{" "}
                 <a href="mailto:support@u-topia.com" className="text-primary hover:underline">support@u-topia.com</a>.
               </p>
               <p>
-                Issuer reserves the right to amend these Card Terms or impose additional obligations or restrictions on you at any time with or without notice to you. By continuing to use the Services, you agree to be bound by such amendments or additional obligations or restrictions. The date on the top of this page shows when the Card Terms were last updated. Capitalized terms that are not defined here have the definitions provided in the User Terms.
+                Issuer reserves the right to amend these Card Terms or impose additional obligations or restrictions on you at any time with or without notice to you. By continuing to use the Services, you agree to be bound by such amendments or additional obligations or restrictions. The date on the top of this page shows when the Card Terms were last updated. Capitalized terms that are not defined here have the definitions provided in the User Agreement.
               </p>
               <p>
-                U-TOPIA CORP. provides technology services in connection with the U-TOPIA CORP. Card, and is not a bank, credit union, or money services business and does not itself extend credit, set interest rates, determine repayment terms or hold Collateral. Nothing in these Card Terms shall be construed as creating a lender-borrower relationship between you and U-TOPIA CORP..
+                U-TOPIA provides technology services in connection with the U-TOPIA Card, and is not a bank, credit union, or money services business and does not itself extend credit, set interest rates, determine repayment terms or hold Collateral. Nothing in these Card Terms shall be construed as creating a lender-borrower relationship between you and U-TOPIA.
               </p>
-              <p>You acknowledge and agree that U-TOPIA CORP.:</p>
+              <p>You acknowledge and agree that U-TOPIA:</p>
               <ul className="space-y-3">
                 <Bullet>(i) is an express third-party beneficiary of these Card Terms, with the limited right to enforce obligations that directly relate to its role;</Bullet>
-                <Bullet>(ii) is not responsible for any decisions by the Issuer to approve, decline, suspend or close your Card account. U-TOPIA CORP. may, at the request of the Issuer, the payment network or a regulatory authority, suspend or restrict your access to the U-TOPIA CORP. platform or certain features, to protect against fraud, comply with applicable laws or manage program risk;</Bullet>
+                <Bullet>(ii) is not responsible for any decisions by the Issuer to approve, decline, suspend or close your Card account. U-TOPIA may, at the request of the Issuer, the payment network or a regulatory authority, suspend or restrict your access to the U-TOPIA platform or certain features, to protect against fraud, comply with applicable laws or manage program risk;</Bullet>
                 <Bullet>(iii) does not control and is not responsible for the operation, security, or performance of the smart contracts used to hold your Collateral; and</Bullet>
-                <Bullet>(iv) is not responsible for merchant acceptance of your U-TOPIA CORP. Card or for resolving disputes about goods or services purchased with the U-TOPIA CORP. Card.</Bullet>
+                <Bullet>(iv) is not responsible for merchant acceptance of your U-TOPIA Card or for resolving disputes about goods or services purchased with the U-TOPIA Card.</Bullet>
               </ul>
             </Section>
 
             <Section title="Defined Terms">
               <ul className="space-y-3">
-                <Bullet><strong className="text-foreground">"Authorized User(s)"</strong> means one or more individuals authorized to use the U-TOPIA CORP. Card and Account on your behalf.</Bullet>
                 <Bullet><strong className="text-foreground">"Card Networks"</strong> means the payment card networks including Visa or Mastercard.</Bullet>
                 <Bullet><strong className="text-foreground">"Charge"</strong> means a payment for goods or services made to a merchant that accepts payments on the applicable Card Network.</Bullet>
                 <Bullet><strong className="text-foreground">"Chargeback"</strong> means a dispute that you initiate against a merchant for an unresolved dispute with the merchant or where a Charge is unauthorized.</Bullet>
-                <Bullet><strong className="text-foreground">"Linked Wallet"</strong> means the primary wallet that is connected as a settlement source for your U-TOPIA CORP. Card and which may or may not enable you to access your U-TOPIA CORP. Account and U-TOPIA CORP. Card.</Bullet>
-                <Bullet><strong className="text-foreground">"Fee"</strong> means charges we impose on you for use of Services or your use of a U-TOPIA CORP. Card.</Bullet>
+                <Bullet><strong className="text-foreground">"Fee"</strong> means charges we impose on you for use of Services or your use of a U-TOPIA Card.</Bullet>
                 <Bullet><strong className="text-foreground">"Issuer"</strong> refers to Third National, including its affiliates, successors, and assigns.</Bullet>
-                <Bullet><strong className="text-foreground">"Periodic Statement"</strong> means the periodic statements that reflect activity for all Cards issued to you identifying charges, fees, refunds, or other amounts owed or credited to your U-TOPIA CORP. Account during the time covered by that statement.</Bullet>
-                <Bullet><strong className="text-foreground">"Supported Blockchains"</strong> means the Ethereum Blockchain, Polygon Blockchain, Optimism Blockchain, Arbitrum Blockchain and other blockchain networks. We may update this list of Supported Blockchains at any time and at our sole discretion.</Bullet>
+                <Bullet><strong className="text-foreground">"Periodic Statement"</strong> means the periodic statements that reflect activity for all Cards issued to you identifying charges, fees, refunds, or other amounts owed or credited to your U-TOPIA Account during the time covered by that statement.</Bullet>
+                <Bullet><strong className="text-foreground">"Supported Blockchains"</strong> means the Ethereum Blockchain, Polygon Blockchain, Optimism Blockchain, Arbitrum Blockchain and other blockchain networks which may be added at the sole discretion of Issuer. We may update this list of Supported Blockchains at any time and at our sole discretion.</Bullet>
               </ul>
             </Section>
 
             <Section title="1. Accepting this Agreement & Eligibility">
               <p>
-                These Card Terms become effective and legally binding when you activate or create your Card by following the instructions on the U-TOPIA CORP. platform. You and we agree to comply with, and be bound by, this entire agreement. You should retain and carefully review these Card Terms. By creating a Card, you agree to the Arbitration Clause below as it pertains to this agreement, even if you do not use the Account or the Card.
+                These Card Terms become effective and legally binding when you activate or create your Card by following the instructions on the U-TOPIA platform. You and we agree to comply with, and be bound by, this entire agreement. You should retain and carefully review these Card Terms. By creating a Card, you agree to the Arbitration Clause below as it pertains to these Card Terms, even if you do not use the Account or the Card.
               </p>
               <p>By using a Card you represent and warrant in your individual capacity that:</p>
               <ul className="space-y-3">
                 <Bullet>You are not a person who is blocked or sanctioned by the United States Government, including those identified by the United States Office of Foreign Asset Controls (OFAC).</Bullet>
                 <Bullet>You will use the Services exclusively for purposes permitted by these Card Terms.</Bullet>
-                <Bullet>All information you provide to us, either directly or through Partner, is and will be true, correct, and complete.</Bullet>
-                <Bullet>You will not use the U-TOPIA CORP. Card for personal, family, or household use.</Bullet>
-                <Bullet>You will only use the U-TOPIA CORP. Card in compliance with applicable law.</Bullet>
-                <Bullet>You attest that you were not solicited for this product.</Bullet>
+                <Bullet>All information you provide to us, either directly or through U-TOPIA, is and will be true, correct, and complete.</Bullet>
+                <Bullet>You will use the U-TOPIA Card for personal, family, or household use.</Bullet>
+                <Bullet>You will only use the U-TOPIA Card in compliance with applicable law.</Bullet>
+                <Bullet>You attest that you are not a United States citizen, and that you are signing up for a card that is intended for those outside of the United States.</Bullet>
+                <Bullet>You attest that you were not solicited for this Card.</Bullet>
               </ul>
             </Section>
 
             <Section title="2. Issuer Terms">
               <p>
-                The Issuer is identified on the back of the U-TOPIA CORP. Card issued to you, as identified in these Card Terms, or any other agreements or materials provided to you. Issuer is the creditor responsible for funding your payments for goods and services you purchase at a merchant through your U-TOPIA CORP. Card and based on information provided by U-TOPIA CORP.. Please note that the Issuer may require you to accept additional terms in addition to the agreements you have with U-TOPIA CORP., and your use of the U-TOPIA CORP. Cards will then also be subject to such additional terms.
+                The Issuer is identified on the back of the U-TOPIA Card issued to you and is responsible for funding your payments for goods and services you purchase at a merchant through your U-TOPIA Card and based on information provided by Partner. Please note that the Issuer may require you to accept additional terms in addition to the agreements you have with U-TOPIA, and your use of the U-TOPIA Cards will then also be subject to such additional terms.
               </p>
             </Section>
 
             <Section title="3. Collateral">
               <p>
-                This Account is secured by collateral. Either your primary Linked Wallet or any Additional Wallets may provide the collateral that will secure the Charges made by you on any U-TOPIA CORP. Card (the "<strong>Collateral</strong>"). The Collateral must be held in a wallet on a Supported Blockchain. By entering into these Card Terms, you are furnishing and granting us a security interest in the Collateral, as well as any additions to, substitutions or renewals of the Collateral. No portion of the Collateral may be used by you to secure other loans.
+                This Account is a secured Account. Either your primary Linked Wallet or any Additional Wallets may provide the collateral that will secure the Charges made by you on any Card (the "<strong>Collateral</strong>"). The Collateral must be held in a wallet on a Supported Blockchain. By entering into these Card Terms, you are furnishing and granting us a security interest in the Collateral, as well as any additions to, substitutions or renewals of the Collateral. No portion of the Collateral may be used by you to secure other loans.
               </p>
               <p>
-                A "<strong>Liquidation Event</strong>" will occur (a) if you have an outstanding payment obligation to U-TOPIA CORP. or the Issuer, as applicable, and such payment obligation has not been paid in full by you within one (1) calendar day; or (b) the Market Value of your collateral drops below the value of the existing charges on your U-TOPIA CORP. Card(s) and you do not add additional collateral. U-TOPIA CORP. and Issuer may allow for an additional grace period at their discretion.
+                A "<strong>Liquidation Event</strong>" will occur (a) if you have an outstanding payment obligation to U-TOPIA or the Issuer, as applicable, and such payment obligation has not been paid in full by you within one (1) calendar day; or (b) the Market Value of your Collateral drops below the value of the existing charges on your U-TOPIA Card(s) and you do not add additional collateral or reduce the value of the existing charges to less than the Market Value of the Collateral by making a payment. U-TOPIA and Issuer may allow for an additional grace period at their discretion.
               </p>
               <p>
-                "<strong>Market Value</strong>" of the Collateral will be determined by U-TOPIA CORP. and/or Issuer using the net redemption value provided by a centralized stablecoin issuer and/or the real time price posted on a reputable and recognized exchange or price aggregator, or by reference to a price oracle, subject to U-TOPIA CORP. or Issuer's discretion. You agree to pay all transaction costs or "gas" fees relating to any Liquidation transaction and that all such costs or fees will be paid from your Collateral and will not be credited to your Account. You agree that the market value of your collateral is determined solely by Issuer through the above methods. You further agree that the Market Value is determined at the time of a Liquidation Event and any change in or fluctuation in value of the Collateral before or after a Liquidation Event will have no bearing on obligations owed to U-TOPIA CORP. and/or Issuer.
+                "<strong>Market Value</strong>" of the Collateral will be determined by U-TOPIA and/or Issuer using the net redemption value provided by a centralized stablecoin issuer and/or the real time price posted on a reputable and recognized exchange or price aggregator, or by reference to a price oracle, subject to U-TOPIA or Issuer's discretion. You agree to pay all transaction costs or "gas" fees relating to any Liquidation transaction and that all such costs or fees will be paid from your Collateral and will not be credited to your Account. You agree that the market value of your collateral is determined solely by Issuer through the above methods. You further agree that the Market Value is determined at the time of a Liquidation Event and any change in or fluctuation in value of the Collateral before or after a Liquidation Event will have no bearing on obligations owed to U-TOPIA and/or Issuer.
               </p>
               <p>
-                You, through one or more of your Linked Wallet or Additional Wallets, must ensure that the Collateral has Market Value in United States Dollars ("<strong>USD</strong>") that is greater than or equal to the value of all unpaid charges to all of your U-TOPIA CORP. Cards. For example, if you provide Collateral with a Market Value equal to $100 of value in USD, and that Market Value does not change, your spending limit will be equal to $100 USD across all your U-TOPIA CORP. Cards. Once $100 USD has been charged to your U-TOPIA CORP. Cards, you will be required to either make a payment or to provide additional Collateral in order to be able to make any additional Charges. If, at any time, the Market Value of the Collateral is less than the value of all unpaid charges, we may require you to add to the Collateral or you may be subject to a Liquidation Event, at our sole discretion. If the Market Value of your Collateral is subject to a Liquidation Event when the Market Value is below your existing charges, you still owe U-TOPIA CORP. and Issuer any difference between the USD value of the charges and the USD value of the Collateral at the time of the Liquidation Event.
+                You, through one or more of your Linked Wallet or Additional Wallets, must ensure that the Collateral has a Market Value in United States Dollars ("<strong>USD</strong>") that is greater than or equal to the value of all unpaid Charges to all of your U-TOPIA Cards. For example, if you provide Digital Assets with a Market Value equal to $100 of value in USD, and that Market Value does not change, your spending limit will be equal to $100 USD across all your U-TOPIA Cards. Once $100 USD has been charged to your U-TOPIA Cards, you will be required to either make a payment or to provide additional Collateral in order to make any additional Charges. If, at any time, the Market Value of your Collateral becomes less than the value of all unpaid Charges, we may require you to add to the Collateral or you may be subject to a Liquidation Event, at our discretion. If the Market Value of your Collateral is subject to a Liquidation Event when the Market Value is below your existing charges, you still owe U-TOPIA and Issuer any difference between the USD value of the charges, and the USD value of the collateral at the time of the Liquidation Event.
               </p>
-              <p>Your withdrawal of any Collateral will not terminate any outstanding payment obligations you may have on your U-TOPIA CORP. Cards.</p>
+              <p>Your withdrawal of any Collateral will not terminate any outstanding payment obligations you may have on your U-TOPIA Cards.</p>
               <p>
-                U-TOPIA CORP. and Issuer will not, in any circumstance, be holding custody of your Collateral. Issuer is not a custodian or owner of your Collateral. If a Liquidation Event occurs, only the amount required to repay your outstanding financial obligations to Issuer will be liquidated from your Collateral. Any unencumbered Collateral balances shall remain freely accessible. You authorize and consent to U-TOPIA CORP. or Issuer liquidating the Collateral upon a Liquidation Event through a third party or by other means in order to satisfy payment obligations owed by you to U-TOPIA CORP., the Issuer or other third party, as applicable. You must ensure that sufficient Collateral is maintained to support the Charges incurred by you and all Authorized Users. All Authorized User activity will be attributed to you, and liquidation may occur as a result of an Authorized User's transactions.
-              </p>
-              <p>
-                You acknowledge and agree that the Supported Blockchains, including any Supported Blockchains that consist of or include tokenized assets, are issued and managed by third parties, and are subject to their own terms, conditions, and risks. We and U-TOPIA CORP. make no representations or warranties regarding any Supported Blockchain, or any underlying collateral related to such Supported Blockchain, including but not limited to their value, liquidity, stability, yield, rewards, or any other attributes. We and U-TOPIA CORP. expressly disclaim all responsibility and liability for any losses, fluctuations, or other outcomes arising from the ownership, use, performance, or characteristics of any Supported Blockchain and/or Collateral. You are responsible for evaluating and accepting the risks associated with any Supported Blockchain you use to provide Collateral.
+                U-TOPIA and Issuer will not, in any circumstance, be holding custody of your Collateral. U-TOPIA is not a custodian or owner of your Collateral. You authorize and consent to U-TOPIA or Issuer liquidating the Collateral upon a Liquidation Event through a third party or by other means in order to satisfy payment obligations owed by you to U-TOPIA, the Issuer or other third party, as applicable.
               </p>
               <p>
-                You waive any right to require us to: (a) proceed against any Cardholder or any other person; (b) proceed against or exhaust any security held under these Card Terms; or (c) pursue any other remedy available to us under applicable law. Issuer or U-TOPIA CORP. may, without prior notice, and from time to time: (a) renew, compromise, extend, accelerate or otherwise change the terms relating to the Account; (b) take and hold security (other than the Collateral) for payment of the Account and enforce, exchange and release the security in any manner that we determine is proper; (c) release or substitute any Cardholder, guarantor, or endorser of the Account; and (d) increase or lower the Credit Limit on your Account, and no such action shall change the fact that the Collateral shall at all times serve as security for the Account.
+                You acknowledge and agree that the Supported Blockchains, including any Supported Blockchains that consist of or include tokenized assets, are issued and managed by third parties, and are subject to their own terms, conditions, and risks. We and U-TOPIA make no representations or warranties regarding any Supported Blockchain, or any underlying Collateral related to such Supported Blockchain, including but not limited to their value, liquidity, stability, yield, rewards, or any other attributes. We and U-TOPIA expressly disclaim all responsibility and liability for any losses, fluctuations, or other outcomes arising from the ownership, use, performance, or characteristics of any Supported Blockchain and/or Collateral. You are responsible for evaluating and accepting the risks associated with any Supported Blockchain you use to provide Collateral.
+              </p>
+              <p>
+                You waive any right to require us to: (a) proceed against any other person; (b) proceed against or exhaust any security held under these Card Terms; or (c) pursue any other remedy available to us under applicable law. We may, without prior notice, and from time to time: (a) renew, compromise, extend, accelerate or otherwise change the terms relating to the Account; (b) take and hold security (other than the Collateral) for payment of the Account and enforce, exchange and release the security in any manner that we determine is proper; (c) release or substitute any person, guarantor, or endorser of the Account; and (d) increase or lower the Credit Limit on your Account, and no such action shall change the fact that the Collateral shall at all times serve as security for the Account.
               </p>
             </Section>
 
             <Section title="4. Spending Limits">
               <p>
-                Your spending limit is generally set by U-TOPIA CORP. pursuant to the terms of the U-TOPIA CORP. Terms as well as the amount of the Collateral. Issuer or U-TOPIA CORP. may additionally set spending limits on each U-TOPIA CORP. Card or an aggregate spending limit across all U-TOPIA CORP. Cards, at their sole discretion. U-TOPIA CORP. Account spending limits are dynamic and may be modified at any time with or without notice to you, including temporary increases or decreases or reducing spending limits to $0. Any authorized Charge or fee on a U-TOPIA CORP. Card may reduce your spending limit by a corresponding amount.
+                Your spending limit is generally set by U-TOPIA pursuant to the terms of the U-TOPIA Terms and the amount of Collateral. Issuer may additionally set spending limits on each U-TOPIA Card or an aggregate spending limit across all U-TOPIA Cards, at its sole discretion. U-TOPIA Account Spending limits are dynamic and may be modified at any time with or without notice to you, including temporary increases or decreases or reducing spending limits to $0. Any authorized Charge or fee on a U-TOPIA Card may reduce your spending limit by a corresponding amount.
               </p>
               <p>
-                When you use a U-TOPIA CORP. Card to initiate a transaction at certain merchants where the amount of the final transaction is unknown at the time of authorization, Issuer may assess a value to such a Charge for an amount higher or lower than the final Charges. The initial "hold" Charge will reduce your spending limit until the final Charge is determined.
+                When you use your U-TOPIA Card to initiate a transaction at certain merchants where the amount of the final transaction is unknown at the time of authorization, Issuer may assess a value to such a Charge for an amount higher or lower than the final Charges. This initial "hold" Charge will reduce your spending limit until the final Charge is determined.
               </p>
             </Section>
 
             <Section title="5. Purchases & Restrictions">
               <p>
-                The primary purpose of your Account is to facilitate corporate expenses and other corporate purchases. U-TOPIA CORP. and Issuer reserve the right to block and terminate transactions and suspend access to your Account, unless prohibited by applicable law, for transactions and activity which presents patterns that do not conform with business purposes. You may use your Account to purchase or lease goods or services (each, a "<strong>purchase</strong>") by presenting your Card or providing to participating merchants and establishments that honor the Card your Card number and additional information by any other means (for example, over the phone, online or through a mobile app). We will not be liable to you (or anyone else) if any merchant or other person cannot or will not process a purchase permitted under these Card Terms. Unless prohibited by applicable law, we may from time to time limit the type, number and dollar amount of any purchase, including any cash-like transaction, even if you have sufficient available credit to complete the purchase. Cash-like transactions include, but are not limited to, the following transactions to the extent they are accepted:
+                U-TOPIA and Issuer reserve the right to block and terminate transactions and suspend access to your Account, unless prohibited by applicable law, at any time and for any reason, including if we believe that you are using the Card or your Account for non-consumer purposes. You may use your Account to purchase or lease goods or services (each, a "<strong>Purchase</strong>") by presenting your Card or providing to participating merchants and establishments that honor the Card your Card number and additional information by any other means (for example, over the phone, online or through a mobile app). We will not be liable to you (or anyone else) if any merchant or other person cannot or will not process a purchase permitted under these Card Terms. Unless prohibited by applicable law, we may from time to time limit the type, number and dollar amount of any purchase, including any cash-like transaction, even if you have sufficient available credit to complete the purchase. Cash-like transactions include, but are not limited to, the following transactions to the extent they are accepted:
               </p>
               <ul className="space-y-3">
                 <Bullet>purchasing travelers checks, foreign currency, money orders, wire transfers, cryptocurrency, other similar digital or virtual currency and other similar transactions;</Bullet>
@@ -198,83 +194,74 @@ const TermsInternational = () => {
               </p>
               <p>
                 You acknowledge and agree that you have read and understood the{" "}
-                <Link to="/prohibited-activities" className="text-primary hover:underline">Prohibited Activities List</Link>{" "}
-                and that you will not engage in any such activities when using the Services or the U-TOPIA CORP. Card.
+                <Link to="/prohibited-activities" className="text-primary hover:underline">Prohibited Activities Policy</Link>{" "}
+                and that you will not engage in any such activities when using the Services or the U-TOPIA Card.
               </p>
               <p>
-                You acknowledge and agree that you will not use the U-TOPIA CORP. Card (1) for any expense which is not a business expense incurred by you; (2) for any purpose prohibited by these Card Terms; (3) for, with, or for the benefit of any individual or entity who is blocked or sanctioned by the United States, including those identified by the United States Department of Treasury's Office of Foreign Assets Control (OFAC); or (4) for personal, family, or household use.
+                You acknowledge and agree that you will not use the U-TOPIA Card (1) for any expense which is not an expense incurred by you; (2) for any purpose prohibited by these Card Terms; or (3) for, with, or for the benefit of any individual or entity who is blocked or sanctioned by the United States, including those identified by the United States Department of Treasury's Office of Foreign Assets Control (OFAC).
               </p>
               <p>
-                You will use all reasonable means to protect your U-TOPIA CORP. Cards and log-in credentials to the U-TOPIA CORP. Account from unauthorized use. You will not allow any other person or third party to use the Services or the U-TOPIA CORP. Card on your behalf, except that Authorized Users, if any, may use your Account. You will immediately notify us where you know or suspect that access to your U-TOPIA CORP. Account has been compromised or your U-TOPIA CORP. Card has been lost, stolen, or compromised in any way. You are responsible for ensuring that only Authorized Users are issued the U-TOPIA CORP. Card and that each Authorized User has been provided with a copy of, and fully complies with, these Card Terms, U-TOPIA CORP.'s User Terms, the Prohibited Use Policy and all applicable laws.
+                You will use all reasonable means to protect your U-TOPIA Cards and log-in credentials to the U-TOPIA Account from unauthorized use. You will not allow any other person or third party to use the Services or the U-TOPIA Card on your behalf. You will immediately notify us where you know or suspect that access to your U-TOPIA Account has been compromised or your U-TOPIA Card has been lost, stolen, or compromised in any way.
               </p>
             </Section>
 
             <Section title="6. Payments">
               <SubHeading>6.1 Promise to Pay</SubHeading>
               <p>
-                While you will generally repay U-TOPIA CORP. for amounts transacted with your Card, you also promise to pay Issuer or its assignees for all amounts charged to the Account not repaid to Issuer by Partner, including all purchases, interest, and charges charged to your Account. Except as otherwise described in this Agreement, you are obligated to repay all transactions made using your Card by people you have authorized to use the Card even if their use of the Card exceeds the authorization which you gave them. You agree to bear the liability for all charges, fees, penalties, Collateral requirements, and repayment obligations incurred by your Authorized Users.
+                While you will generally repay U-TOPIA for amounts transacted with your Card, you also promise to pay Issuer or its assignees for all amounts charged to the Account not repaid to Issuer by Partner, including all purchases, interest, and charges charged to your Account. Except as prohibited by applicable law, you are obligated to repay U-TOPIA or its assignees, for all transactions made using your Card by people you have authorized to use the Card even if their use of the Card exceeds the authorization which you gave them.
               </p>
-
               <SubHeading>6.2 Periodic Statements</SubHeading>
               <p>
-                You are responsible for payment in full of all Charges and Fees. Your U-TOPIA CORP. Account may furnish to you Periodic Statements identifying Charges, Fees, refunds, the amount of your Collateral, any other Card transactions, or other amounts owed or credited to your U-TOPIA CORP. Account. Periodic Statements may be made accessible to you on your U-TOPIA CORP. Account daily, monthly, or otherwise. You must notify us promptly if you believe that there are any errors on your Periodic Statement, and submit any disputes or Chargebacks in accordance with these Card Terms. Your failure to get a Periodic Statement will have no bearing on your obligations and U-TOPIA CORP. and Issuer may still liquidate your collateral per Section 3 of this agreement.
+                You are responsible for payment in full of all Charges and Fees. Your U-TOPIA Account may furnish to you Periodic Statements identifying Charges, Fees, refunds, the amount of your Collateral, any other Card transactions, or other amounts owed or credited to your U-TOPIA Account. Periodic Statements may be made accessible to you on your U-TOPIA Account daily, monthly, or as otherwise prescribed by Issuer. You must notify us promptly if you believe that there are any errors on your Periodic Statement, and submit any disputes or Chargebacks in accordance with these Card Terms. We are not obligated to send you a monthly statement if we deem your Account to be uncollectible or applicable law does not require us to send you a monthly statement for other reasons. Your failure to get a statement will have no bearing on your obligations and U-TOPIA and Issuer may still liquidate your collateral per Section 3 of this agreement.
               </p>
-
-              <SubHeading>6.3 Repayments</SubHeading>
+              <SubHeading>6.3 Repayment</SubHeading>
               <p>
-                Where applicable, you may make a repayment for a balance on one or more of your U-TOPIA CORP. Cards by any means that are permitted by U-TOPIA CORP. and as provided in your U-TOPIA CORP. Account.
+                Where applicable, you may make a repayment for a balance on one or more of your U-TOPIA Cards by any means that are permitted by U-TOPIA and as provided in your U-TOPIA Account.
               </p>
               <p>
-                Any failure to pay the full amount owed when required is a breach of these Card Terms. You are responsible for all costs or expenses that we may incur in collecting amounts owed but not timely paid, including legal or collections fees and any interest at the maximum rate permitted under law. Balances in your linked wallet and the Collateral may each be used as a source of funds for repayment for any spending on your Card, and you expressly authorize the use of your linked wallet and the Collateral for repayment any time you use your card for purchases, as described in the liquidation provisions discussed in Section 3 of this agreement and elsewhere in these Card Terms.
+                Any failure to pay the full amount owed to U-TOPIA or the Issuer, as applicable, when required is a breach of these Card Terms. You are responsible for all costs or expenses that we may incur in collecting amounts owed but not timely paid, including legal or collections fees and any interest at the maximum rate permitted under law.
               </p>
-
               <SubHeading>6.4 Prepayment</SubHeading>
               <p>
                 At any time and where applicable, you may pay all or any part of your outstanding Account balance, without penalty. Payment of more than the payment due in one billing cycle will not relieve you of the obligation to pay the entire payment due in subsequent billing cycles.
               </p>
-
-              <SubHeading>6.5 Right of Setoff</SubHeading>
-              <p>
-                If you default under these Card Terms, you agree and understand that, without prior notice or demand, U-TOPIA CORP. and Issuer have the absolute right to setoff all amounts due against the Collateral, any Linked Accounts, and any other of your funds that U-TOPIA CORP. or Issuer, and their respective affiliates and third-party service providers, may access.
-              </p>
             </Section>
 
             <Section title="7. Fees">
-              <p>Subject to applicable law you agree to pay the following fees:</p>
-              <ul className="space-y-3">
-                <Bullet><strong className="text-foreground">A.</strong> The Fees applicable to your Account are described above. You are responsible for Fees in addition to Charges.</Bullet>
-                <Bullet><strong className="text-foreground">B.</strong> Returned Payment fees become payable by you each time a payment on your Account is returned or reversed for any reason or we must return any check, instrument, or transaction you send us because it is incomplete or faulty, we will charge you a returned payment fee of $00.00. However, we will not charge a returned payment fee if we are charging a late fee with respect to the same minimum payment due and will never charge a returned payment fee exceeding the minimum payment due that was due immediately prior to the date on which the payment was returned to us.</Bullet>
-                <Bullet><strong className="text-foreground">C. Foreign Currency Transactions.</strong> If you make a transaction using your Account in a foreign currency (including, for example, online purchases from a merchant located outside of the U.S.), the credit card association will convert any transaction in foreign currency into U.S. dollars using an exchange rate for the applicable central processing date that is (1) selected by the association from the range of rates available in wholesale currency markets, which rate may vary from the rate the association receives, or (2) the government mandated rate. The conversion rate you get may differ from the rate on the transaction date or the posting date, and from the rate that the credit card association gets. A merchant or other third party may convert a transaction into U.S. dollars or another currency, using a rate they select, before sending it to the credit card association.</Bullet>
-              </ul>
+              <p>
+                A. The Fees applicable to your Account are described above. You are responsible for Fees in addition to Charges.
+              </p>
+              <p>
+                B. Returned Payment fees become payable by you each time a payment on your Account is returned or reversed for any reason or we must return any check, instrument, or transaction you send us because it is incomplete or faulty; we will charge you a returned payment fee of [$00.00]. However, we will not charge a returned payment fee if we are charging a late fee with respect to the same minimum payment due and will never charge a returned payment fee exceeding the minimum payment due that was due immediately prior to the date on which the payment was returned to us.
+              </p>
+              <p>
+                C. Foreign Currency Transactions. If you make a transaction using your Account in a foreign currency (including, for example, online purchases from a merchant located outside of the U.S.), the credit card association will convert any transaction in foreign currency into U.S. dollars using an exchange rate for the applicable central processing date that is (1) selected by the association from the range of rates available in wholesale currency markets, which rate may vary from the rate the association receives, or (2) the government mandated rate. The conversion rate you get may differ from the rate on the transaction date or the posting date, and from the rate that the credit card association gets. A merchant or other third party may convert a transaction into U.S. dollars or another currency, using a rate they select, before sending it to the credit card association.
+              </p>
+              <p>
+                D. Additional Services. We may, from time to time, make additional services available to you directly or through affiliated or non-affiliated third parties. Without limitation, such services may include providing you with virtual accounts in order to enable you to use your Account or otherwise engage in various financial transactions that we do not directly provide. Each such service is subject to its own terms and conditions, and we shall not be responsible to you for any aspect of those services. We may permit you to charge any applicable fees for such services to your Account. You acknowledge and agree that we may receive compensation or otherwise benefit as a result of making such services available to you.
+              </p>
             </Section>
 
-            <Section title="8. Managing Your U-TOPIA CORP. Cards">
+            <Section title="8. Managing Your U-TOPIA Cards">
               <SubHeading>8.1 Requesting and Replacing Cards</SubHeading>
               <p>
-                We or U-TOPIA CORP. may decide not to grant requests for U-TOPIA CORP. Cards or limit the number of physical or virtual U-TOPIA CORP. Cards provided to you.
+                We or U-TOPIA may decide not to grant requests for U-TOPIA Cards or limit the number of physical or virtual U-TOPIA Cards provided to you.
               </p>
               <p>
-                You are responsible for securing U-TOPIA CORP. Cards, account numbers, and U-TOPIA CORP. Card security features. You will promptly notify us and take appropriate measures to prevent unauthorized transactions when a U-TOPIA CORP. Card is lost, stolen, breached, or needs to be replaced. In such cases, you may request the issuance of replacement U-TOPIA CORP. Cards through your U-TOPIA CORP. Account. Replacement Cards may have new account numbers that could require you to update the U-TOPIA CORP. Card on file for any scheduled or recurring payments. You are solely responsible for updating U-TOPIA CORP. Card information stored with merchants where account numbers have been changed.
+                You are responsible for securing U-TOPIA Cards, account numbers, and U-TOPIA Card security features. You will promptly notify us and take appropriate measures to prevent unauthorized transactions when a U-TOPIA Card is lost, stolen, breached, or needs to be replaced. In such cases, you may request the issuance of replacement U-TOPIA Cards through your U-TOPIA Account. Replacement Cards may have new account numbers that could require you to update the U-TOPIA Card on file for any scheduled or recurring payments. You are solely responsible for updating U-TOPIA Card information stored with merchants where account numbers have been changed.
               </p>
-
               <SubHeading>8.2 Permitted and Unauthorized Use</SubHeading>
               <p>
-                You may only use U-TOPIA CORP. Cards for bona fide business-related Charges and transactions, and not for personal, family, or household purposes. You understand that your U-TOPIA CORP. Account is commercial in nature and that certain consumer protection laws do not apply to your U-TOPIA CORP. Account or the U-TOPIA CORP. Cards. You agree that all Charges and other transactions in your account will be treated as business transactions made solely for business purposes.
+                You agree to establish and maintain controls designed to ensure that the U-TOPIA Cards are only used by you and your permitted authorized users for bona fide purposes and in compliance with these Card Terms, any Issuer terms, and applicable law. You are responsible for Charges and transactions made by any person given access to U-TOPIA Cards even if they are not the person associated with or named on the U-TOPIA Card.
               </p>
               <p>
-                You agree to establish and maintain controls designed to ensure that the U-TOPIA CORP. Cards are only used by you and your permitted authorized users for bona fide business purposes and in compliance with these Card Terms, any Issuer terms, and applicable law. You are responsible for Charges and transactions made by any person given access to U-TOPIA CORP. Cards even if they are not the person associated with or named on the U-TOPIA CORP. Card.
+                U-TOPIA, Issuer, Card Networks, or other intermediary third-party service providers (including merchant acquirers) may deny or reverse Charges for any reason. Issuer is not responsible for any losses, damages, or harm caused by any Charges that are denied or reversed.
               </p>
-              <p>
-                U-TOPIA CORP., Issuers, Card Networks, or other intermediary third-party service providers (including merchant acquirers) may deny or reverse Charges for any reason. Issuer is not responsible for any losses, damages, or harm caused by any Charges that are denied or reversed.
-              </p>
-
               <SubHeading>8.3 Lost or Stolen Cards</SubHeading>
               <p>
                 If your Card is lost or stolen or if you think someone may be using your Card or Account without your permission, you must notify us promptly by emailing us at{" "}
-                <a href="mailto:support@u-topia.com" className="text-primary hover:underline">support@u-topia.com</a>. You will not be liable for any unauthorized use that occurs after you notify us.
-              </p>
-              <p>
-                If Unauthorized Use of the Account occurs, you agree to cooperate with U-TOPIA CORP., Issuer, and any applicable law enforcement authorities in identifying the unauthorized user. All claims of alleged loss, theft, or Unauthorized Use of a Card or the Account are subject to investigation. You agree to be fully liable for all Purchases, Fees, and any other amounts due on your Account in connection with any claimed Unauthorized Use, except for such amounts incurred after you provide actual notice to Issuer or U-TOPIA CORP. of such Unauthorized Use. "<strong>Unauthorized Use</strong>" means any use of a Card or the Account (in any way) by a person who does not have actual, implied, or apparent authority for such use, and from which you received no benefit, directly or indirectly.
+                <a href="mailto:support@u-topia.com" className="text-primary hover:underline">support@u-topia.com</a>.
+                You will not be liable for any unauthorized use that occurs after you notify us. You may, however, be liable for unauthorized use that occurs before receipt of your notice by us. You have an obligation to assist us in our investigation if your U-TOPIA Card is lost or stolen or you believe someone is using your U-TOPIA Card or your U-TOPIA Account without your permission.
               </p>
             </Section>
 
@@ -283,13 +270,13 @@ const TermsInternational = () => {
                 You are responsible for reviewing your Periodic Statements promptly and identifying any Charges that you believe are unauthorized or that you dispute.
               </p>
               <p>
-                If you and a merchant have a dispute regarding a Charge identified on your Periodic Statement, such as delivery of incorrect goods or services or being charged the wrong amount, you should first attempt to resolve the dispute with the merchant. If the dispute is not resolved to your satisfaction or if you believe the Charge is unauthorized, you may initiate a Chargeback through your U-TOPIA CORP. Account. You must report any disputed Charge or error no more than 60 days after the disputed Charge is posted on your Periodic Statement. We may require additional details on the transaction and our review of your disputed Charge will be conditioned on you providing all of the information we may require to review the disputed Charge.
+                If you and a merchant have a dispute regarding a Charge identified on your Periodic Statement, such as delivery of incorrect goods or services or being charged the wrong amount, you should first attempt to resolve the dispute with the merchant. If the dispute is not resolved to your satisfaction or if you believe the Charge is unauthorized, you may initiate a Chargeback through your U-TOPIA Account. You must report any disputed Charge or error no more than 60 days after the disputed Charge is posted on your Periodic Statement. We may require additional details on the transaction and our review of your disputed Charge will be conditioned on you providing all of the information we may require to review the disputed Charge.
               </p>
               <p>
-                You understand that the U-TOPIA CORP. Card is subject to Card Network rules regarding chargebacks. The Card Networks have additional established procedures for resolving chargebacks that may require you to provide further details of the disputed Charge or associated documentation.
+                You understand that the U-TOPIA Card is subject to Card Network rules regarding chargebacks. The Card Networks have additional established procedures for resolving chargebacks that may require you to provide further details of the disputed Charge or associated documentation.
               </p>
               <p>
-                Charges relating to disputed Charges and Chargebacks that are pending resolution may still be due and owing as of the date that payment is due as provided in the applicable Periodic Statement. Chargebacks resolved in your favor will be credited to your U-TOPIA CORP. Account on either the current or a future Periodic Statement. We may impose Fees, reduce your spending limits, or suspend access to your U-TOPIA CORP. Account or the Services if you fail to pay Charges relating to Chargebacks that are pending resolution on the payment date.
+                Charges relating to disputed Charges and Chargebacks that are pending resolution may still be due and owing as of the date that payment is due as provided in the applicable Periodic Statement. Chargebacks resolved in your favor will be credited to your U-TOPIA Account on either the current or a future Periodic Statement. We may impose Fees, reduce your spending limits, or suspend access to your U-TOPIA Account or the Services if you fail to pay Charges relating to Chargebacks that are pending resolution on the payment date.
               </p>
             </Section>
 
@@ -329,11 +316,11 @@ const TermsInternational = () => {
 
             <Section title="14. Communications and Call Recording">
               <p>
-                You authorize U-TOPIA CORP., Issuer and their partners (each of Issuer's affiliates, agents, assigns, and service providers (collectively, the "<strong>Messaging Parties</strong>") to use automatic telephone dialing systems, artificial or prerecorded voice message systems, text messaging systems and automated email systems, or any system capable of storing and dialing telephone numbers to deliver messages relating to these Card Terms, your Account, or your relationship with the Messaging Parties more generally (including but not limited to: messages about upcoming payment due dates, missed payments and returned payments) to any telephone number(s) you provide to the Messaging Parties. You also agree that these messages may deliver prerecorded and/or artificial voice messages. You understand that telephone messages may be played by a machine automatically when the telephone is answered, whether answered by you or someone else, and that these messages may also be recorded by your answering machine. You also authorize the Messaging Parties to deliver messages to you via mail or email at any addresses you supply to them or that they obtain through any legal means.
+                You authorize U-TOPIA, Issuer and their partners (each of Issuer's affiliates, agents, assigns, and service providers (collectively, the "<strong>Messaging Parties</strong>") to use automatic telephone dialing systems, artificial or prerecorded voice message systems, text messaging systems and automated email systems, or any system capable of storing and dialing telephone numbers to deliver messages relating to these Card Terms, your Account, or your relationship with the Messaging Parties more generally (including but not limited to: messages about upcoming payment due dates, missed payments and returned payments) to any telephone number(s) you provide to the Messaging Parties. You also agree that these messages may deliver prerecorded and/or artificial voice messages. You understand that telephone messages may be played by a machine automatically when the telephone is answered, whether answered by you or someone else, and that these messages may also be recorded by your answering machine. You also authorize the Messaging Parties to deliver messages to you via mail or email at any addresses you supply to them or that they obtain through any legal means.
               </p>
               <p>
                 By accepting these Card Terms or using your Card, you acknowledge that you have received, reviewed, and agree to be bound by the Issuer's{" "}
-                <Link to="/esign" className="text-primary hover:underline">E-Sign &amp; Electronic Communications Notice</Link>{" "}
+                <Link to="/esign" className="text-primary hover:underline">E-Sign & Electronic Communications Notice</Link>{" "}
                 (the "<strong>E-Sign Notice</strong>"), which is incorporated herein by reference. You consent to receive all disclosures, notices, agreements, and other communications from Issuer and the Messaging Parties in electronic form, in accordance with the E-Sign Notice. You agree that such electronic communications satisfy any legal requirement that such communications be in writing. The E-Sign Notice may be amended by Issuer from time to time, and your continued use of the Card after any such amendment constitutes your acceptance of the amended E-Sign Notice.
               </p>
               <p>
@@ -342,7 +329,7 @@ const TermsInternational = () => {
               <p>
                 This authorization is part of our bargain concerning these Card Terms, and we do not intend it to be revocable. However, to the extent you have the right to revoke your consent to communications by autodialed calls and text messages to your mobile number under applicable law, you may exercise this right by contacting the applicable Messaging Party directly or by sending a request by email to{" "}
                 <a href="mailto:support@u-topia.com" className="text-primary hover:underline">support@u-topia.com</a>{" "}
-                with the subject line "END COMMUNICATIONS." You may opt out of receiving most of these messages at any time by sending us a request to{" "}
+                with the subject line "END COMMUNICATIONS." You may opt-out of receiving most of these messages at any time by sending us a request to{" "}
                 <a href="mailto:support@u-topia.com" className="text-primary hover:underline">support@u-topia.com</a>{" "}
                 or by responding "STOP" to any text message. To stop emails only, you can follow the opt-out instructions included at the bottom of the Messaging Parties' emails.
               </p>
@@ -356,17 +343,15 @@ const TermsInternational = () => {
 
             <Section title="16. Dispute Resolution & Arbitration">
               <p className="uppercase text-sm tracking-wide">
-                Please read this "Dispute Resolution and Arbitration" provision very carefully. It limits your rights in the event of a dispute between you and Issuer. U-TOPIA CORP. is the technology provider for the Card but is not the Issuer, creditor or lender. U-TOPIA CORP. is not a party to these Card Terms and has no liability for the Issuer's obligations under it. However, U-TOPIA CORP. is an express third-party beneficiary of these Card Terms with respect to any provisions that allocate risk, disclaim liability, limit remedies or require disputes to be resolved through arbitration. Accordingly, to the extent a dispute involves U-TOPIA CORP., U-TOPIA CORP. shall be entitled to invoke and benefit from the same protections, limitations and dispute resolution procedures as the Issuer. To the extent you have any dispute you may have with U-TOPIA CORP. relating solely to services provided to you under your separate User Terms with U-TOPIA CORP., such disputes will be governed exclusively in accordance with the U-TOPIA CORP. User Terms.
+                Please read this "Dispute Resolution and Arbitration" provision very carefully. It limits your rights in the event of a dispute between you and Issuer. U-TOPIA is the technology provider for the Card but is not the Issuer, creditor or lender. U-TOPIA is not a party to these Card Terms and has no liability for the Issuer's obligations under it. However, U-TOPIA is an express third-party beneficiary of these Card Terms with respect to any provisions that allocate risk, disclaim liability, limit remedies or require disputes to be resolved through arbitration. Accordingly, to the extent a dispute involves U-TOPIA, U-TOPIA shall be entitled to invoke and benefit from the same protections, limitations and dispute resolution procedures as the Issuer. To the extent you have any dispute you may have with U-TOPIA relating solely to services provided to you under your separate User Terms with U-TOPIA, such disputes will be governed exclusively in accordance with the U-TOPIA User Terms.
               </p>
-
               <SubHeading>Binding Arbitration</SubHeading>
               <p>
-                (a) You and Issuer agree that any and all past, present and future Disputes (defined below) shall be determined by arbitration, unless your Dispute is subject to an exception to this agreement to arbitrate set forth below. You and Issuer further agree that any arbitration pursuant to this section shall not proceed as a class, group or representative action. The award of the arbitrator may be entered in any court having jurisdiction. "<strong>Dispute</strong>" means any dispute, claim, or controversy between you and Issuer that arises out of or relates to (i) these Card Terms (including any addenda hereto or other terms incorporated herein by reference), (ii) the breach, termination, enforcement, interpretation or validity hereof, including the determination of the scope or applicability of the agreement to arbitrate hereunder, or (iii) any Services (including, without limitation, the U-TOPIA CORP. Card).
+                (a) You and Issuer agree that any and all past, present and future Disputes (defined below) shall be determined by arbitration, unless your Dispute is subject to an exception to this agreement to arbitrate set forth below. You and Issuer further agree that any arbitration pursuant to this section shall not proceed as a class, group or representative action. The award of the arbitrator may be entered in any court having jurisdiction. "<strong>Dispute</strong>" means any dispute, claim, or controversy between you and Issuer that arises out of or relates to (i) these Card Terms (including any addenda hereto or other terms incorporated herein by reference), (ii) the breach, termination, enforcement, interpretation or validity hereof, including the determination of the scope or applicability of the agreement to arbitrate hereunder, or (iii) any Services (including, without limitation, the U-TOPIA Card).
               </p>
               <p>
                 (b) This agreement to arbitrate shall be construed under and be subject to the Federal Arbitration Act, notwithstanding any other choice of law set out in these Card Terms.
               </p>
-
               <SubHeading>Arbitration Procedure</SubHeading>
               <p>
                 (a) Before filing a claim against Issuer, you agree to try to resolve the Dispute informally by providing written notice to Issuer of the actual or potential Dispute. Similarly, Issuer will provide written notice to you of any actual or potential Dispute to endeavor to resolve any claim we may possess informally before taking any formal action. The party that provides the notice of the actual or potential Dispute (the "<strong>Notifying Party</strong>") will include in that notice (a "<strong>Notice of Dispute</strong>") your name, the Notifying Party's contact information for any communications relating to such Dispute, and sufficient details regarding such Dispute to enable the other party (the "<strong>Notified Party</strong>") to understand the basis of and evaluate the concerns raised. If the Notified Party responds within ten (10) business days after receiving the Notice of Dispute that it is ready and willing to engage in good faith discussions in an effort to resolve the Dispute informally, then each party shall promptly participate in such discussions in good faith.
@@ -375,7 +360,7 @@ const TermsInternational = () => {
                 (b) If, notwithstanding the Notifying Party's compliance with all of its obligations under the preceding paragraph, a Dispute is not resolved within thirty (30) days after the Notice of Dispute is sent (or if the Notified Party fails to respond to the Notice of Dispute within ten (10) business days), the Notifying Party may initiate an arbitration proceeding as described below. If either party purports to initiate arbitration without first providing a Notice of Dispute and otherwise complying with all of its obligations under the preceding paragraph, then, notwithstanding any other provision of these Card Terms, the arbitrator(s) will promptly dismiss the claim with prejudice and will award the other party all of its costs and expenses (including, without limitation, reasonable attorneys' fees) incurred in connection with such Dispute.
               </p>
               <p>
-                (c) You and Issuer each agree to resolve any Disputes that are not resolved informally as described above through final and binding arbitration as discussed herein, except as set forth under Section 12.3 below. You and Issuer agree that the American Arbitration Association ("<strong>AAA</strong>") will administer the arbitration under its Commercial Arbitration Rules (the "<strong>Rules</strong>"). The Rules are available at www.adr.org or by calling the AAA at 1-800-778-7879. A party who desires to initiate arbitration must provide the other party with a written Demand for Arbitration as specified in the AAA Rules. Arbitration will proceed on an individual basis and will be handled by a sole arbitrator. The single arbitrator will be either a retired judge or an attorney licensed to practice law and will be selected by the parties from the AAA's roster of arbitrators. If the parties are unable to agree upon an arbitrator within fourteen (14) days of delivery of the Demand for Arbitration, then the AAA will appoint the arbitrator in accordance with the AAA Rules. The arbitrator(s) shall be authorized to award any remedies, including injunctive relief, that would be available to you in an individual lawsuit, subject to any effective and enforceable limitations of liability or exclusions of remedies set forth herein. Notwithstanding any language to the contrary in this paragraph, if a party seeks injunctive relief that would significantly impact other Issuer users as reasonably determined by either party, the parties agree that such arbitration will proceed on an individual basis but will be handled by a panel of three (3) arbitrators. Each party shall select one arbitrator, and the two party-selected arbitrators shall select the third, who shall serve as chair of the arbitral panel. That chairperson shall be a retired judge or an attorney licensed to practice law and with experience arbitrating or mediating disputes. In the event of disagreement as to whether the threshold for a three-arbitrator panel has been met, the sole arbitrator appointed in accordance with this Section shall make that determination. If the arbitrator determines a three-person panel is appropriate, the arbitrator may — if selected by either party or as the chair by the two party-selected arbitrators — participate in the arbitral panel. Except as and to the extent otherwise may be required by law, the arbitration proceeding and any award shall be confidential.
+                (c) You and Issuer each agree to resolve any Disputes that are not resolved informally as described above through final and binding arbitration as discussed herein, except as set forth under Section 12.3 below. You and Issuer agree that the American Arbitration Association ("<strong>AAA</strong>") will administer the arbitration under its Consumer Arbitration Rules (the "<strong>Rules</strong>"). The Rules are available at www.adr.org or by calling the AAA at 1-800-778-7879. A party who desires to initiate arbitration must provide the other party with a written Demand for Arbitration as specified in the AAA Rules. Arbitration will proceed on an individual basis and will be handled by a sole arbitrator. The single arbitrator will be either a retired judge or an attorney licensed to practice law and will be selected by the parties from the AAA's roster of arbitrators. If the parties are unable to agree upon an arbitrator within fourteen (14) days of delivery of the Demand for Arbitration, then the AAA will appoint the arbitrator in accordance with the AAA Rules. The arbitrator(s) shall be authorized to award any remedies, including injunctive relief, that would be available to you in an individual lawsuit, subject to any effective and enforceable limitations of liability or exclusions of remedies set forth herein. Notwithstanding any language to the contrary in this paragraph, if a party seeks injunctive relief that would significantly impact other Issuer users as reasonably determined by either party, the parties agree that such arbitration will proceed on an individual basis but will be handled by a panel of three (3) arbitrators. Each party shall select one arbitrator, and the two party-selected arbitrators shall select the third, who shall serve as chair of the arbitral panel. That chairperson shall be a retired judge or an attorney licensed to practice law and with experience arbitrating or mediating disputes. In the event of disagreement as to whether the threshold for a three-arbitrator panel has been met, the sole arbitrator appointed in accordance with this Section shall make that determination. If the arbitrator determines a three-person panel is appropriate, the arbitrator may — if selected by either party or as the chair by the two party-selected arbitrators — participate in the arbitral panel. Except as and to the extent otherwise may be required by law, the arbitration proceeding and any award shall be confidential.
               </p>
               <p>
                 (d) You and Issuer further agree that the arbitration will be held in the English language in New York, New York, or, if you so elect, all proceedings can be conducted via videoconference, telephonically or via other remote electronic means.
@@ -387,29 +372,24 @@ const TermsInternational = () => {
                 (f) You and Issuer agree that, notwithstanding anything to the contrary in the Rules, the arbitration of any Dispute shall proceed on an individual basis, and neither you nor Issuer may bring a claim as a part of a class, group, collective, coordinated, consolidated or mass arbitration (each, a "<strong>Collective Arbitration</strong>"). Without limiting the generality of the foregoing, a claim to resolve any Dispute against Issuer will be deemed a Collective Arbitration if (i) two (2) or more similar claims for arbitration are filed concurrently by or on behalf of one or more claimants; and (ii) counsel for the claimants are the same, share fees or coordinate across the arbitrations. "Concurrently" for purposes of this provision means that both arbitrations are pending (filed but not yet resolved) at the same time.
               </p>
               <p className="uppercase text-sm tracking-wide">
-                To the maximum extent permitted by applicable law, neither you nor Issuer shall be entitled to consolidate, join or coordinate disputes by or against other individuals or entities, or arbitrate or litigate any dispute in a representative capacity, including as a representative member of a class or in a private attorney general capacity. In connection with any dispute, any and all such rights are hereby expressly and unconditionally waived. Without limiting the foregoing, any challenge to the validity of this paragraph shall be determined exclusively by the arbitrator.
+                To the maximum extent permitted by applicable law, neither you nor Issuer shall be entitled to consolidate, join or coordinate Disputes by or against other individuals or entities, or arbitrate or litigate any Dispute in a representative capacity, including as a representative member of a class or in a private attorney general capacity. In connection with any Dispute, any and all such rights are hereby expressly and unconditionally waived. Without limiting the foregoing, any challenge to the validity of this paragraph shall be determined exclusively by the arbitrator.
               </p>
-
               <SubHeading>Small Claims</SubHeading>
               <p>
                 Notwithstanding your and Issuer's agreement to arbitrate Disputes, you and Issuer retain the right to bring an individual action in small claims court.
               </p>
-
               <SubHeading>Class Waiver</SubHeading>
               <p>
                 To the extent applicable law permits, any dispute arising out of or relating to these Card Terms, whether in arbitration or in court, will be conducted only on an individual basis and not in a class, consolidated or representative action. Notwithstanding any other provision of these Card Terms or the AAA Rules, disputes regarding the interpretation, applicability, or enforceability of this class waiver may be resolved only by a court and not by an arbitrator. If this waiver of class or consolidated actions is deemed invalid or unenforceable, neither party is entitled to arbitration.
               </p>
-
               <SubHeading>No Jury Trial</SubHeading>
               <p>
                 If for any reason a claim or dispute proceeds in court rather than through arbitration, each party knowingly and irrevocably waives any right to trial by jury in any action, proceeding or counterclaim arising out of or relating to these Card Terms.
               </p>
-
               <SubHeading>Venue and Jurisdiction for Judicial Proceedings</SubHeading>
               <p>
                 Except as otherwise required by applicable law or provided in these Card Terms, in the event that the agreement to arbitrate is found not to apply to you or your Dispute, you and Issuer agree that any judicial proceeding may only be brought in a court of competent jurisdiction in Puerto Rico. Both you and Issuer irrevocably consent to venue and personal jurisdiction in Puerto Rico; provided that either party may bring any action to confirm an arbitral award in any court having jurisdiction.
               </p>
-
               <SubHeading>Confidentiality</SubHeading>
               <p>
                 The existence of all information regarding any Dispute will be held in strict confidence by the parties and will not be disclosed by either party except as reasonably necessary in connection with the conduct of the arbitration or the confirmation or enforcement of any arbitral award. Any such permitted disclosure will, to the maximum extent reasonably practicable, be made subject to obligations of confidentiality at least as stringent as the provisions of this paragraph. If any disclosure of information regarding any Dispute is required under applicable law, the parties shall reasonably cooperate with one another to obtain protective orders or otherwise to preserve the confidentiality of such information.
@@ -460,7 +440,7 @@ const TermsInternational = () => {
                 To the maximum extent permitted by applicable law, in no event shall Issuer, its affiliates, or its officers, directors, employees, agents, service providers, or licensors be liable to you for any indirect, incidental, consequential, special, exemplary, punitive, or other similar damages, including but not limited to lost profits, lost revenue, lost data, loss of goodwill, business interruption, or loss of business opportunity, whether arising in contract, tort, negligence, strict liability, or otherwise.
               </p>
               <p className="uppercase text-sm tracking-wide">
-                In no event shall Issuer's total liability to you for all claims arising out of or relating to this agreement or your account exceed the lesser of (a) your actual direct damages proven or (b) the total amounts paid by you in the twelve (12) months immediately preceding the event giving rise to the claim.
+                In no event shall Issuer's total liability to you for all claims arising out of or relating to this agreement or your Account exceed the lesser of (a) your actual direct damages proven or (b) the total amounts paid by you in the twelve (12) months immediately preceding the event giving rise to the claim.
               </p>
             </Section>
 
@@ -469,32 +449,6 @@ const TermsInternational = () => {
                 You will indemnify and defend Issuer, its affiliates, and its partners, directors, officers, employees, agents, trustees, administrators, managers, advisors, and representatives (each an "<strong>Indemnitee</strong>") against, and hold each Indemnitee harmless from, any and all claims, litigation, investigations, proceedings, losses, damages, fines, penalties, liabilities, settlements, costs, fees, and expenses incurred by any Indemnitee or asserted against any Indemnitee by any person arising out of, in connection with, related to, or as a result of your (i) breach of any of the representations, warranties, or covenants contained in these Card Terms; or (ii) gross negligence, fraud, or violation of any applicable law or rights of any third-party. Issuer may defend any claim subject to indemnification hereunder, using counsel of its choice, and you will pay or promptly reimburse Issuer for the reasonable fees of such counsel and all related costs and reasonable expenses. If you are a user from a jurisdiction that does not allow certain indemnification obligations, you agree that this indemnity is intended to be as broad as permitted under the laws of such jurisdiction.
               </p>
             </Section>
-
-            <Section title="25. Notification of Corporate Changes">
-              <p>You must notify U-TOPIA CORP. immediately upon any change to:</p>
-              <ul className="space-y-3">
-                <Bullet>Your company's ownership or beneficial owners, including, but not limited to, any sale, merger or consolidation into another company.</Bullet>
-                <Bullet>Any change to the company's address, phone number, email, or other contact information.</Bullet>
-                <Bullet>If you become insolvent or if bankruptcy or other insolvency proceedings are commenced by or against you; or</Bullet>
-                <Bullet>If a receiver or trustee for the benefit of creditors is appointed for the company.</Bullet>
-              </ul>
-            </Section>
-
-            <Section title="26. Obligation to Provide Financial and Other Company Information">
-              <p>
-                From time to time and upon the reasonable request of U-TOPIA CORP. or Issuer, you agree to provide to the requesting party financial and other corporate information in form and detail satisfactory to the requesting party.
-              </p>
-            </Section>
-
-            <Section title="27. Additional Services">
-              <p>
-                We may, from time to time, make additional services available to you directly or through affiliated or non-affiliated third parties. Without limitation, such services may include providing you with virtual accounts in order to enable you to use your Account or otherwise engage in various financial transactions that we do not directly provide. Each such service is subject to its own terms and conditions, and we shall not be responsible to you for any aspect of those services. We may permit you to charge any applicable fees for such services to your Account. You acknowledge and agree that we may receive compensation or otherwise benefit as a result of making such services available to you.
-              </p>
-            </Section>
-
-            <div className="pt-8 border-t border-border">
-              <p className="text-center text-foreground font-medium">End of Terms</p>
-            </div>
           </div>
         </div>
       </main>

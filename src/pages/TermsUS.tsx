@@ -115,7 +115,7 @@ const TermsUS = () => {
             </Section>
 
             <Section title="U-TOPIA Cardholder Agreement — Set Line of Credit">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 Arbitration Clause; Notices: Please review the arbitration clause and notices set forth below in the section titled Dispute Resolution and Arbitration. By using the U-TOPIA Card, you are agreeing to the arbitration clause and notices set forth in that section. The arbitration clause will have a substantial effect on your rights in the event of a dispute, including your right to bring or participate in a class proceeding.
               </p>
               <p>
@@ -156,7 +156,7 @@ const TermsUS = () => {
               <p>
                 We need and will request complete, current and valid information about you to manage your Account. Such information may include but is not limited to: your legal name; your address(es); your telephone number(s); your date(s) of birth; your employment and income information; and your Social Security number(s); or other government identification number(s). You must tell us when this information changes, and, if we agree to issue additional Cards, you must notify us of any changes to this information for each additional cardholder. You may update your address as described on your most recent Statement, through the website we maintain for your Account, or by calling us at the telephone number shown on your most recent Statement or the back of your Card. We may require that you provide additional documents that are acceptable to us so that we can verify this information and any changes. We may restrict or close your Account if we are unable to verify your information or if you do not provide the additional information we request, at our sole discretion.
               </p>
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 To help the government fight the funding of terrorism and money laundering activities, federal law requires us to obtain, verify, and record information that identifies each person who opens an account. What this means for you: when you open an account, we will ask for the name, address, employer identification number and organizational documents of the account owner and the names, addresses, dates of birth, and other information concerning each principal owner that will allow us to identify the account owner and its principal owners. We may also ask to see a copy of each principal owners' driver's licenses or other identification documents.
               </p>
             </Section>
@@ -227,7 +227,7 @@ const TermsUS = () => {
             </Section>
 
             <Section title="No Warranties">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 To the maximum extent permitted by applicable law and except as otherwise provided in the "Billing Rights" section of your Statements and this Agreement, we expressly disclaim all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, title, non-infringement, accuracy, reliability, and any warranties arising from course of dealing or usage of trade.
               </p>
             </Section>
@@ -445,7 +445,7 @@ const TermsUS = () => {
             </Section>
 
             <Section title="Dispute Resolution and Arbitration">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 Please read this "Dispute Resolution and Arbitration" provision very carefully. It limits your rights in the event of a dispute between you and Issuer. U-TOPIA is the technology provider for the Card but is not the Issuer, creditor or lender. U-TOPIA is not a party to this Agreement and has no liability for the Issuer's obligations under it. However, U-TOPIA is an express third-party beneficiary of this Agreement with respect to any provisions that allocate risk, disclaim liability, limit remedies or require disputes to be resolved through arbitration. Accordingly, to the extent a dispute involves U-TOPIA, U-TOPIA shall be entitled to invoke and benefit from the same protections, limitations and dispute resolution procedures as the Issuer. To the extent you have any dispute you may have with U-TOPIA relating solely to services provided to you under your separate User Terms with U-TOPIA, such disputes will be governed exclusively in accordance with the U-TOPIA User Terms.
               </p>
 
@@ -479,7 +479,7 @@ const TermsUS = () => {
               <p>
                 (f) You and Issuer agree that, notwithstanding anything to the contrary in the Rules, the arbitration of any Dispute shall proceed on an individual basis, and neither you nor Issuer may bring a claim as a part of a class, group, collective, coordinated, consolidated or mass arbitration (each, a "<strong>Collective Arbitration</strong>"). Without limiting the generality of the foregoing, a claim to resolve any Dispute against Issuer will be deemed a Collective Arbitration if (i) two (2) or more similar claims for arbitration are filed concurrently by or on behalf of one or more claimants; and (ii) counsel for the claimants are the same, share fees or coordinate across the arbitrations. "Concurrently" for purposes of this provision means that both arbitrations are pending (filed but not yet resolved) at the same time.
               </p>
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 To the maximum extent permitted by applicable law, neither you nor Issuer shall be entitled to consolidate, join or coordinate Disputes by or against other individuals or entities, or arbitrate or litigate any Dispute in a representative capacity, including as a representative member of a class or in a private attorney general capacity. In connection with any Dispute, any and all such rights are hereby expressly and unconditionally waived. Without limiting the foregoing, any challenge to the validity of this paragraph shall be determined exclusively by the arbitrator.
               </p>
 
@@ -531,10 +531,10 @@ const TermsUS = () => {
             </Section>
 
             <Section title="Limitation of Liability">
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 To the maximum extent permitted by applicable law, in no event shall Issuer, its affiliates, or its officers, directors, employees, agents, service providers, or licensors be liable to you for any indirect, incidental, consequential, special, exemplary, punitive, or other similar damages, including but not limited to lost profits, lost revenue, lost data, loss of goodwill, business interruption, or loss of business opportunity, whether arising in contract, tort, negligence, strict liability, or otherwise, even if Issuer has been advised of the possibility of such damages.
               </p>
-              <p className="uppercase text-sm tracking-wide">
+              <p className="uppercase tracking-wide">
                 In no event shall Issuer's total liability to you for all claims arising out of or relating to this Agreement or your Account exceed the lesser of (a) your actual direct damages proven or (b) the total amounts paid by you in connection with this Agreement in the twelve (12) months immediately preceding the event giving rise to the claim.
               </p>
             </Section>
